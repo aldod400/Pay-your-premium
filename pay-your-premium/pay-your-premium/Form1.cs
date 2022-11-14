@@ -16,5 +16,10 @@ namespace pay_your_premium
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
