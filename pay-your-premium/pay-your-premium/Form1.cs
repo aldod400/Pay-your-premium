@@ -21,5 +21,10 @@ namespace pay_your_premium
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Snow Wight");
+        }
     }
 }
