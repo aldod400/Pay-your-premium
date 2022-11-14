@@ -16,15 +16,5 @@ namespace pay_your_premium
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Snow Wight");
-        }
     }
 }
