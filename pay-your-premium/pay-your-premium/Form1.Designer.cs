@@ -42,12 +42,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picuser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picpass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             this.pnltxt.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // User
@@ -157,6 +155,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "LOGIN";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pnltxt
             // 
@@ -214,17 +213,6 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forget Password ?";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.pictureBox1.Image = global::pay_your_premium.Properties.Resources.online_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(989, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -232,7 +220,6 @@
             this.BackgroundImage = global::pay_your_premium.Properties.Resources.animated_devices11;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pnltxt);
             this.Controls.Add(this.button1);
@@ -253,7 +240,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             this.pnltxt.ResumeLayout(false);
             this.pnltxt.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,7 +260,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

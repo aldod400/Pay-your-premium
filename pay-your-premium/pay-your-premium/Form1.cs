@@ -69,5 +69,12 @@ namespace pay_your_premium
                 Pass.Text = "Password";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Brands f2 = new Brands();
+            f2.Show();
+        }
     }
 }
