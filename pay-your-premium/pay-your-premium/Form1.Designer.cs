@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.User = new System.Windows.Forms.TextBox();
             this.Pass = new System.Windows.Forms.TextBox();
             this.pnluser = new System.Windows.Forms.Panel();
@@ -54,9 +55,10 @@
             this.User.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.User.ForeColor = System.Drawing.Color.DimGray;
             this.User.HideSelection = false;
-            this.User.Location = new System.Drawing.Point(65, 182);
+            this.User.Location = new System.Drawing.Point(49, 148);
+            this.User.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.User.Name = "User";
-            this.User.Size = new System.Drawing.Size(264, 24);
+            this.User.Size = new System.Drawing.Size(198, 19);
             this.User.TabIndex = 0;
             this.User.TabStop = false;
             this.User.Text = "Username";
@@ -71,9 +73,10 @@
             this.Pass.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F);
             this.Pass.ForeColor = System.Drawing.Color.DimGray;
             this.Pass.HideSelection = false;
-            this.Pass.Location = new System.Drawing.Point(65, 249);
+            this.Pass.Location = new System.Drawing.Point(49, 202);
+            this.Pass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Pass.Name = "Pass";
-            this.Pass.Size = new System.Drawing.Size(264, 24);
+            this.Pass.Size = new System.Drawing.Size(198, 19);
             this.Pass.TabIndex = 1;
             this.Pass.TabStop = false;
             this.Pass.Text = "Password";
@@ -84,18 +87,20 @@
             // pnluser
             // 
             this.pnluser.BackColor = System.Drawing.Color.White;
-            this.pnluser.Location = new System.Drawing.Point(29, 214);
+            this.pnluser.Location = new System.Drawing.Point(22, 174);
+            this.pnluser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnluser.Name = "pnluser";
-            this.pnluser.Size = new System.Drawing.Size(300, 3);
+            this.pnluser.Size = new System.Drawing.Size(225, 2);
             this.pnluser.TabIndex = 4;
             // 
             // picuser
             // 
             this.picuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
             this.picuser.Image = global::pay_your_premium.Properties.Resources.R;
-            this.picuser.Location = new System.Drawing.Point(29, 181);
+            this.picuser.Location = new System.Drawing.Point(22, 147);
+            this.picuser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picuser.Name = "picuser";
-            this.picuser.Size = new System.Drawing.Size(30, 27);
+            this.picuser.Size = new System.Drawing.Size(22, 22);
             this.picuser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picuser.TabIndex = 0;
             this.picuser.TabStop = false;
@@ -103,18 +108,20 @@
             // pnlpass
             // 
             this.pnlpass.BackColor = System.Drawing.Color.White;
-            this.pnlpass.Location = new System.Drawing.Point(29, 282);
+            this.pnlpass.Location = new System.Drawing.Point(22, 229);
+            this.pnlpass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlpass.Name = "pnlpass";
-            this.pnlpass.Size = new System.Drawing.Size(300, 3);
+            this.pnlpass.Size = new System.Drawing.Size(225, 2);
             this.pnlpass.TabIndex = 5;
             // 
             // picpass
             // 
             this.picpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
             this.picpass.Image = global::pay_your_premium.Properties.Resources.R__2_;
-            this.picpass.Location = new System.Drawing.Point(29, 249);
+            this.picpass.Location = new System.Drawing.Point(22, 202);
+            this.picpass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picpass.Name = "picpass";
-            this.picpass.Size = new System.Drawing.Size(30, 27);
+            this.picpass.Size = new System.Drawing.Size(22, 22);
             this.picpass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picpass.TabIndex = 1;
             this.picpass.TabStop = false;
@@ -125,9 +132,10 @@
             // 
             this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
             this.close.Image = global::pay_your_premium.Properties.Resources.error;
-            this.close.Location = new System.Drawing.Point(1026, 3);
+            this.close.Location = new System.Drawing.Point(770, 2);
+            this.close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(29, 28);
+            this.close.Size = new System.Drawing.Size(22, 23);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.close.TabIndex = 6;
             this.close.TabStop = false;
@@ -140,9 +148,10 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(65, 329);
+            this.button1.Location = new System.Drawing.Point(49, 267);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 35);
+            this.button1.Size = new System.Drawing.Size(141, 28);
             this.button1.TabIndex = 7;
             this.button1.Text = "LOGIN";
             this.button1.UseVisualStyleBackColor = false;
@@ -153,9 +162,10 @@
             this.pnltxt.Controls.Add(this.label3);
             this.pnltxt.Controls.Add(this.label2);
             this.pnltxt.Controls.Add(this.label1);
-            this.pnltxt.Location = new System.Drawing.Point(710, 282);
+            this.pnltxt.Location = new System.Drawing.Point(532, 229);
+            this.pnltxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnltxt.Name = "pnltxt";
-            this.pnltxt.Size = new System.Drawing.Size(345, 233);
+            this.pnltxt.Size = new System.Drawing.Size(259, 189);
             this.pnltxt.TabIndex = 8;
             // 
             // label3
@@ -163,9 +173,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(196, 152);
+            this.label3.Location = new System.Drawing.Point(147, 124);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 52);
+            this.label3.Size = new System.Drawing.Size(94, 43);
             this.label3.TabIndex = 2;
             this.label3.Text = "Server";
             // 
@@ -174,9 +185,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 47);
+            this.label2.Location = new System.Drawing.Point(2, 38);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 52);
+            this.label2.Size = new System.Drawing.Size(178, 43);
             this.label2.TabIndex = 1;
             this.label2.Text = "Welcome To ";
             // 
@@ -184,9 +196,10 @@
             // 
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 105);
+            this.label1.Location = new System.Drawing.Point(2, 85);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(339, 57);
+            this.label1.Size = new System.Drawing.Size(254, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pay Your Premium";
             // 
@@ -195,20 +208,21 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
             this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
-            this.linkLabel1.Location = new System.Drawing.Point(95, 367);
+            this.linkLabel1.Location = new System.Drawing.Point(71, 298);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(126, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(95, 13);
             this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forget Password ?";
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::pay_your_premium.Properties.Resources.animated_devices11;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pnltxt);
             this.Controls.Add(this.button1);
@@ -220,7 +234,7 @@
             this.Controls.Add(this.pnlpass);
             this.Controls.Add(this.pnluser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.picuser)).EndInit();
