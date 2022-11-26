@@ -21,65 +21,24 @@ namespace pay_your_premium
         {
             this.Close();
         }
-        private void LG_MouseMove(object sender, MouseEventArgs e)
+
+        private void LG_Paint(object sender, PaintEventArgs e)
         {
-            LG.BackColor = Color.White;
-        }
-        private void LG_MouseLeave(object sender, EventArgs e)
-        {
-            LG.BackColor = DefaultBackColor;
+
         }
 
-        private void sam_MouseMove(object sender, MouseEventArgs e)
+        private void btnLG_Click(object sender, EventArgs e)
         {
-            sam.BackColor = Color.White;
+            Form3 f3 = new Form3();
+            f3.Show();
+            this.Hide();
         }
 
-        private void sam_MouseLeave(object sender, EventArgs e)
+        private void btnsam_Click(object sender, EventArgs e)
         {
-            sam.BackColor = DefaultBackColor;
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
         }
-
-        private void hp_MouseMove(object sender, MouseEventArgs e)
-        {
-            hp.BackColor = Color.White;
-        }
-
-        private void hp_MouseLeave(object sender, EventArgs e)
-        {
-            hp.BackColor = DefaultBackColor;
-        }
-
-        private void lenovo_MouseMove(object sender, MouseEventArgs e)
-        {
-            lenovo.BackColor = Color.White;
-        }
-
-        private void lenovo_MouseLeave(object sender, EventArgs e)
-        {
-            lenovo.BackColor = DefaultBackColor;
-        }
-
-        private void sony_MouseMove(object sender, MouseEventArgs e)
-        {
-            sony.BackColor = Color.White;
-        }
-
-        private void sony_MouseLeave(object sender, EventArgs e)
-        {
-            sony.BackColor = DefaultBackColor;
-        }
-
-        private void sharp_MouseMove(object sender, MouseEventArgs e)
-        {
-            sharp.BackColor = Color.White;
-        }
-
-        private void sharp_MouseLeave(object sender, EventArgs e)
-        {
-            sharp.BackColor = DefaultBackColor;
-        }
-
-
     }
 }

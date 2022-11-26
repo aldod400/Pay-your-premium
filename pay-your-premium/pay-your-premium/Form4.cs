@@ -10,32 +10,11 @@ using System.Windows.Forms;
 
 namespace pay_your_premium
 {
-    public partial class Login : Form
+    public partial class Form4 : Form
     {
-        public Login()
+        public Form4()
         {
             InitializeComponent();
-        }
-
-
-        private void picpass_MouseDown(object sender, MouseEventArgs e)
-        {
-            Pass.UseSystemPasswordChar = false;
-        }
-
-        private void picpass_MouseUp(object sender, MouseEventArgs e)
-        {
-            Pass.UseSystemPasswordChar = true;
-        }
-
-        private void close_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void User_Click(object sender, EventArgs e)
-        {
-            User.Clear();
         }
 
         private void User_Enter(object sender, EventArgs e)
@@ -45,7 +24,6 @@ namespace pay_your_premium
                 User.Text = "";
             }
         }
-
         private void User_Leave(object sender, EventArgs e)
         {
             if (User.Text == "")
@@ -60,31 +38,54 @@ namespace pay_your_premium
             {
                 Pass.Text = "";
             }
+            Pass.UseSystemPasswordChar = true;
         }
-
         private void Pass_Leave(object sender, EventArgs e)
         {
             if (Pass.Text == "")
             {
                 Pass.Text = "Password";
             }
+            Pass.UseSystemPasswordChar = false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void email_Enter(object sender, EventArgs e)
         {
-            this.Hide();
-            Brands f2 = new Brands();
-            f2.Show();
+            if (email.Text == "Email")
+            {
+                email.Text = "";
+            }
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        private void email_Leave(object sender, EventArgs e)
         {
-
+            if (email.Text == "")
+            {
+                email.Text = "Email";
+            }
         }
 
-        private void User_TextChanged(object sender, EventArgs e)
+        private void confirm_Enter(object sender, EventArgs e)
         {
+            if (confirm.Text == "Confirm Password")
+            {
+                confirm.Text = "";
+            }
+            confirm.UseSystemPasswordChar = true;
+        }
 
+        private void confirm_Leave(object sender, EventArgs e)
+        {
+            if (confirm.Text == "")
+            {
+                confirm.Text = "Confirm Password";
+            }
+            confirm.UseSystemPasswordChar = false;
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.close();
         }
     }
 }

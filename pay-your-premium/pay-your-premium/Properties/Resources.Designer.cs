@@ -103,6 +103,26 @@ namespace pay_your_premium.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Apple_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Apple-Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cooker {
+            get {
+                object obj = ResourceManager.GetObject("cooker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap error {
             get {
                 object obj = ResourceManager.GetObject("error", resourceCulture);
@@ -123,6 +143,16 @@ namespace pay_your_premium.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap laptop {
+            get {
+                object obj = ResourceManager.GetObject("laptop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lenovo_logo {
             get {
                 object obj = ResourceManager.GetObject("Lenovo-logo", resourceCulture);
@@ -136,6 +166,26 @@ namespace pay_your_premium.Properties {
         internal static System.Drawing.Bitmap lg_logo_black_and_white1 {
             get {
                 object obj = ResourceManager.GetObject("lg-logo-black-and-white1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mobile_phone1 {
+            get {
+                object obj = ResourceManager.GetObject("mobile-phone1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mobile_phone2 {
+            get {
+                object obj = ResourceManager.GetObject("mobile-phone2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +246,16 @@ namespace pay_your_premium.Properties {
         internal static System.Drawing.Bitmap R__5_ {
             get {
                 object obj = ResourceManager.GetObject("R (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap refrigerator {
+            get {
+                object obj = ResourceManager.GetObject("refrigerator", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
