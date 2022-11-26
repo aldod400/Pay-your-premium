@@ -76,5 +76,10 @@ namespace pay_your_premium
             Brands f2 = new Brands();
             f2.Show();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
