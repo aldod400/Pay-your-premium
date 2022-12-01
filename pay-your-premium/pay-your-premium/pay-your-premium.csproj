@@ -35,6 +35,46 @@
   <PropertyGroup>
     <ApplicationIcon>phone.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -73,6 +113,12 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -86,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +182,57 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="phone.ico" />
+    <None Include="Resources\vacuum.png" />
+    <None Include="Resources\vacuum.jpg" />
+    <None Include="Resources\projector.png" />
+    <None Include="Resources\OIP %2819%29.jpg" />
+    <None Include="Resources\OIP %2818%29.jpg" />
+    <None Include="Resources\lg_electronics_bg630_lcd_xga_3200_965533.jpg" />
+    <None Include="Resources\OIP %2817%29.jpg" />
+    <None Include="Resources\ha706-000.jpg" />
+    <None Include="Resources\OIP %2816%29.jpg" />
+    <None Include="Resources\R %2810%29.jpg" />
+    <None Include="Resources\R %289%29.jpg" />
+    <None Include="Resources\OIP %2815%29.jpg" />
+    <None Include="Resources\OIP %2814%29.jpg" />
+    <None Include="Resources\M11.jpg" />
+    <None Include="Resources\GR-Y331SLZB-2-1.jpg" />
+    <None Include="Resources\1631946_008_m.jpg" />
+    <None Include="Resources\OIP %2813%29.jpg" />
+    <None Include="Resources\lg-gl-n292rdsy-260-l.jpg" />
+    <None Include="Resources\lg-instaview-door-in-door-refrigerator-steel-gray-_gc-q22ftbkl__1.jpg" />
+    <None Include="Resources\gnm-755_hw-01_1.jpg" />
+    <None Include="Resources\OIP %2812%29.jpg" />
+    <None Include="Resources\OIP %2811%29.jpg" />
+    <None Include="Resources\R %288%29.jpg" />
+    <None Include="Resources\R %287%29.jpg" />
+    <None Include="Resources\OIP %2810%29.jpg" />
+    <None Include="Resources\R %286%29.jpg" />
+    <None Include="Resources\thumbbig-35935.jpg" />
+    <None Include="Resources\OIP1.jpg" />
+    <None Include="Resources\OIP.jpg" />
+    <None Include="Resources\R %287%29.png" />
+    <None Include="Resources\img_4722531.png" />
+    <None Include="Resources\Series6silver.jpg" />
+    <None Include="Resources\OIP %288%29.jpg" />
+    <None Include="Resources\OIP %287%29.jpg" />
+    <None Include="Resources\OIP %286%29.jpg" />
+    <None Include="Resources\apple_mtur2ll_a_watch_series_4_gps_1434898.jpg" />
+    <None Include="Resources\apple-watch-series-6-gps-40mm-product-red-1200x900.jpg" />
+    <None Include="Resources\img_472253.png" />
+    <None Include="Resources\R %288%291.png" />
+    <None Include="Resources\R %288%29.png" />
+    <None Include="Resources\R %284%29.jpg" />
+    <None Include="Resources\fff78f8977fc2868e169fd6e8d7312a5.jpg" />
+    <None Include="Resources\OIP %285%29.jpg" />
+    <None Include="Resources\apple-mac-laptop-250x250.jpg" />
+    <None Include="Resources\OIP %281%29.jpg" />
+    <None Include="Resources\R %281%29.jpg" />
+    <None Include="Resources\refurb-iphone11-white-2019.jpg" />
+    <None Include="Resources\OIP %282%29.jpg" />
+    <None Include="Resources\Apple-iPhone-12-Pro-b-427x5461.jpg" />
+    <None Include="Resources\Apple-iPhone-12-Pro-b-427x546.jpg" />
+    <None Include="Resources\Apple-iPhone-14-Pro-Max-500x500.jpg" />
     <None Include="Resources\mobile-phone1.png" />
     <None Include="Resources\refrigerator.png" />
     <None Include="Resources\cooker.png" />

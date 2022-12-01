@@ -35,17 +35,17 @@
             this.picuser = new System.Windows.Forms.PictureBox();
             this.pnlpass = new System.Windows.Forms.Panel();
             this.picpass = new System.Windows.Forms.PictureBox();
-            this.close = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.pnltxt = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.close = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picuser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picpass)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             this.pnltxt.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             this.SuspendLayout();
             // 
             // User
@@ -129,19 +129,6 @@
             this.picpass.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picpass_MouseDown);
             this.picpass.MouseUp += new System.Windows.Forms.MouseEventHandler(this.picpass_MouseUp);
             // 
-            // close
-            // 
-            this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.close.Image = global::pay_your_premium.Properties.Resources.error;
-            this.close.Location = new System.Drawing.Point(1027, 2);
-            this.close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(29, 28);
-            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.close.TabIndex = 6;
-            this.close.TabStop = false;
-            this.close.Click += new System.EventHandler(this.close_Click);
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
@@ -214,6 +201,19 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forget Password ?";
             // 
+            // close
+            // 
+            this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.close.Image = global::pay_your_premium.Properties.Resources.error;
+            this.close.Location = new System.Drawing.Point(1027, 2);
+            this.close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(29, 28);
+            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.close.TabIndex = 6;
+            this.close.TabStop = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -233,15 +233,15 @@
             this.Controls.Add(this.pnluser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picuser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picpass)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             this.pnltxt.ResumeLayout(false);
             this.pnltxt.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,13 +255,13 @@
         private System.Windows.Forms.PictureBox picuser;
         private System.Windows.Forms.Panel pnlpass;
         private System.Windows.Forms.PictureBox picpass;
-        private System.Windows.Forms.PictureBox close;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel pnltxt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.PictureBox close;
     }
 }
 

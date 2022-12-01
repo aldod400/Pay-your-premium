@@ -29,15 +29,14 @@ namespace pay_your_premium
 
         private void btnLG_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
-            f3.Show();
+            LG f5 = new LG();
+            f5.Show();
             this.Hide();
         }
-
-        private void btnsam_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
-            f4.Show();
+            APPLE f3 = new APPLE();
+            f3.Show();
             this.Hide();
         }
     }

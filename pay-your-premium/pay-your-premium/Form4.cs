@@ -85,7 +85,7 @@ namespace pay_your_premium
 
         private void close_Click(object sender, EventArgs e)
         {
-            this.close();
+            this.Close();
         }
     }
 }

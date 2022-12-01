@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.email = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.confirm = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.Pass = new System.Windows.Forms.TextBox();
             this.User = new System.Windows.Forms.TextBox();
             this.pnlpass = new System.Windows.Forms.Panel();
             this.pnluser = new System.Windows.Forms.Panel();
-            this.confirm = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.email = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             this.SuspendLayout();
@@ -65,25 +65,78 @@
             this.panel1.Size = new System.Drawing.Size(697, 482);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // panel4
             // 
-            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(50, 115);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(262, 231);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pay       Your      Premium   ";
+            this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel4.Location = new System.Drawing.Point(339, 143);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(4, 188);
+            this.panel4.TabIndex = 18;
             // 
-            // label2
+            // button1
             // 
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(217, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(339, 35);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Create Your Acount";
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(213, 375);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(277, 43);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Create Acount";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // email
+            // 
+            this.email.BackColor = System.Drawing.Color.White;
+            this.email.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.email.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.ForeColor = System.Drawing.Color.DimGray;
+            this.email.HideSelection = false;
+            this.email.Location = new System.Drawing.Point(30, 273);
+            this.email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(268, 24);
+            this.email.TabIndex = 15;
+            this.email.TabStop = false;
+            this.email.Text = "Email";
+            this.email.Enter += new System.EventHandler(this.email_Enter);
+            this.email.Leave += new System.EventHandler(this.email_Leave);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
+            this.panel3.Location = new System.Drawing.Point(30, 305);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(270, 2);
+            this.panel3.TabIndex = 16;
+            // 
+            // confirm
+            // 
+            this.confirm.BackColor = System.Drawing.Color.White;
+            this.confirm.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.confirm.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F);
+            this.confirm.ForeColor = System.Drawing.Color.DimGray;
+            this.confirm.HideSelection = false;
+            this.confirm.Location = new System.Drawing.Point(388, 272);
+            this.confirm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.confirm.Name = "confirm";
+            this.confirm.Size = new System.Drawing.Size(268, 24);
+            this.confirm.TabIndex = 13;
+            this.confirm.TabStop = false;
+            this.confirm.Text = "Confirm Password";
+            this.confirm.Enter += new System.EventHandler(this.confirm_Enter);
+            this.confirm.Leave += new System.EventHandler(this.confirm_Leave);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
+            this.panel2.Location = new System.Drawing.Point(388, 305);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(270, 2);
+            this.panel2.TabIndex = 14;
             // 
             // Pass
             // 
@@ -137,78 +190,15 @@
             this.pnluser.Size = new System.Drawing.Size(270, 2);
             this.pnluser.TabIndex = 10;
             // 
-            // confirm
+            // label2
             // 
-            this.confirm.BackColor = System.Drawing.Color.White;
-            this.confirm.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.confirm.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F);
-            this.confirm.ForeColor = System.Drawing.Color.DimGray;
-            this.confirm.HideSelection = false;
-            this.confirm.Location = new System.Drawing.Point(388, 272);
-            this.confirm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.confirm.Name = "confirm";
-            this.confirm.Size = new System.Drawing.Size(268, 24);
-            this.confirm.TabIndex = 13;
-            this.confirm.TabStop = false;
-            this.confirm.Text = "Confirm Password";
-            this.confirm.Enter += new System.EventHandler(this.confirm_Enter);
-            this.confirm.Leave += new System.EventHandler(this.confirm_Leave);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
-            this.panel2.Location = new System.Drawing.Point(388, 305);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(270, 2);
-            this.panel2.TabIndex = 14;
-            // 
-            // email
-            // 
-            this.email.BackColor = System.Drawing.Color.White;
-            this.email.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.email.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email.ForeColor = System.Drawing.Color.DimGray;
-            this.email.HideSelection = false;
-            this.email.Location = new System.Drawing.Point(30, 273);
-            this.email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(268, 24);
-            this.email.TabIndex = 15;
-            this.email.TabStop = false;
-            this.email.Text = "Email";
-            this.email.Enter += new System.EventHandler(this.email_Enter);
-            this.email.Leave += new System.EventHandler(this.email_Leave);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
-            this.panel3.Location = new System.Drawing.Point(30, 305);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(270, 2);
-            this.panel3.TabIndex = 16;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(213, 375);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(277, 43);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Create Acount";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel4.Location = new System.Drawing.Point(339, 143);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(4, 188);
-            this.panel4.TabIndex = 18;
+            this.label2.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(217, 43);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(339, 35);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Create Your Acount";
             // 
             // close
             // 
@@ -222,6 +212,16 @@
             this.close.TabIndex = 8;
             this.close.TabStop = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(50, 115);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(262, 231);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Pay       Your      Premium   ";
             // 
             // Form4
             // 
@@ -246,7 +246,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox Pass;
         private System.Windows.Forms.TextBox User;
         private System.Windows.Forms.Panel pnlpass;
@@ -258,5 +257,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox close;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -30,7 +30,7 @@ namespace pay_your_premium
 
         private void close_Click(object sender, EventArgs e)
         {
-            this.Close();
+            System.Windows.Forms.Application.Exit();
         }
 
         private void User_Click(object sender, EventArgs e)
@@ -75,6 +75,7 @@ namespace pay_your_premium
             this.Hide();
             Brands f2 = new Brands();
             f2.Show();
+            
         }
 
         private void Login_Load(object sender, EventArgs e)
