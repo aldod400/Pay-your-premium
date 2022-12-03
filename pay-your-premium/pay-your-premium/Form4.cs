@@ -12,13 +12,17 @@ using System.Windows.Forms;
 
 namespace pay_your_premium
 {
+  
     public partial class Form4 : Form
     {
+        public string emai()
+        {
+            return email.Text;
+        }
         public Form4()
         {
             InitializeComponent();
         }
-
         private void User_Enter(object sender, EventArgs e)
         {
             if (User.Text == "Username")
@@ -26,6 +30,7 @@ namespace pay_your_premium
                 User.Text = "";
             }
         }
+        
         private void User_Leave(object sender, EventArgs e)
         {
             if (User.Text == "")

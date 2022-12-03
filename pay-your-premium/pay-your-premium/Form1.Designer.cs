@@ -56,7 +56,7 @@
             this.User.ForeColor = System.Drawing.Color.DimGray;
             this.User.HideSelection = false;
             this.User.Location = new System.Drawing.Point(49, 148);
-            this.User.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.User.Margin = new System.Windows.Forms.Padding(2);
             this.User.Name = "User";
             this.User.Size = new System.Drawing.Size(198, 19);
             this.User.TabIndex = 0;
@@ -75,7 +75,7 @@
             this.Pass.ForeColor = System.Drawing.Color.DimGray;
             this.Pass.HideSelection = false;
             this.Pass.Location = new System.Drawing.Point(49, 202);
-            this.Pass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Pass.Margin = new System.Windows.Forms.Padding(2);
             this.Pass.Name = "Pass";
             this.Pass.Size = new System.Drawing.Size(198, 19);
             this.Pass.TabIndex = 1;
@@ -89,7 +89,7 @@
             // 
             this.pnluser.BackColor = System.Drawing.Color.White;
             this.pnluser.Location = new System.Drawing.Point(22, 174);
-            this.pnluser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnluser.Margin = new System.Windows.Forms.Padding(2);
             this.pnluser.Name = "pnluser";
             this.pnluser.Size = new System.Drawing.Size(225, 2);
             this.pnluser.TabIndex = 4;
@@ -99,7 +99,7 @@
             this.picuser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
             this.picuser.Image = global::pay_your_premium.Properties.Resources.R;
             this.picuser.Location = new System.Drawing.Point(22, 147);
-            this.picuser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picuser.Margin = new System.Windows.Forms.Padding(2);
             this.picuser.Name = "picuser";
             this.picuser.Size = new System.Drawing.Size(22, 22);
             this.picuser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -110,7 +110,7 @@
             // 
             this.pnlpass.BackColor = System.Drawing.Color.White;
             this.pnlpass.Location = new System.Drawing.Point(22, 229);
-            this.pnlpass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlpass.Margin = new System.Windows.Forms.Padding(2);
             this.pnlpass.Name = "pnlpass";
             this.pnlpass.Size = new System.Drawing.Size(225, 2);
             this.pnlpass.TabIndex = 5;
@@ -120,7 +120,7 @@
             this.picpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
             this.picpass.Image = global::pay_your_premium.Properties.Resources.R__2_;
             this.picpass.Location = new System.Drawing.Point(22, 202);
-            this.picpass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picpass.Margin = new System.Windows.Forms.Padding(2);
             this.picpass.Name = "picpass";
             this.picpass.Size = new System.Drawing.Size(22, 22);
             this.picpass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -137,7 +137,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(49, 267);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 28);
             this.button1.TabIndex = 7;
@@ -152,7 +152,7 @@
             this.pnltxt.Controls.Add(this.label2);
             this.pnltxt.Controls.Add(this.label1);
             this.pnltxt.Location = new System.Drawing.Point(532, 229);
-            this.pnltxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnltxt.Margin = new System.Windows.Forms.Padding(2);
             this.pnltxt.Name = "pnltxt";
             this.pnltxt.Size = new System.Drawing.Size(259, 189);
             this.pnltxt.TabIndex = 8;
@@ -204,13 +204,14 @@
             this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forget Password ?";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // close
             // 
             this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
             this.close.Image = global::pay_your_premium.Properties.Resources.error;
             this.close.Location = new System.Drawing.Point(770, 2);
-            this.close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.close.Margin = new System.Windows.Forms.Padding(2);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(22, 23);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
