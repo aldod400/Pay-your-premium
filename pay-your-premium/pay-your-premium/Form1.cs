@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -72,10 +73,29 @@ namespace pay_your_premium
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Brands f2 = new Brands();
-            f2.Show();
-            
+            SqlConnection cn = new SqlConnection(@"Data Source=DESKTOP-RGLU690;Initial Catalog=pay_your_premium;Integrated Security=True");
+            cn.Open();
+            if (User.Text == "Email" || Pass.Text == "Password")
+            {
+                MessageBox.Show("Chek Empty Field");
+            }
+            else
+            {
+                SqlCommand cm = new SqlCommand("SELECT * FROM users WHERE [user_email] = '" + User.Text + "' AND [user_password] = '" + Pass.Text + "'", cn);
+                SqlDataReader sdr = cm.ExecuteReader();
+                sdr.Read();
+                if (sdr.HasRows == true)
+                {
+                    this.Hide();
+                    Brands f2 = new Brands();
+                    f2.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Wrong Email Or Password");
+                }
+            }
+            cn.Close();
         }
 
         private void Login_Load(object sender, EventArgs e)
