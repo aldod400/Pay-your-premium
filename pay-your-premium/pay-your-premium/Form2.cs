@@ -39,5 +39,12 @@ namespace pay_your_premium
             f3.Show();
             this.Hide();
         }
+
+        private void btnsam_Click(object sender, EventArgs e)
+        {
+            Main f8 = new Main();
+            this.Hide();
+            f8.Show();
+        }
     }
 }

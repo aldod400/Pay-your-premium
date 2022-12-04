@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Apple-iPhone-12-Pro-b-427x5461" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apple-iPhone-12-Pro-b-427x5461.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OIP (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,14 +130,23 @@
   <data name="OIP (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (17).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="animated-devices1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\animated-devices1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="online-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\online-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (11)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (11)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1439179" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1439179.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lenovo-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lenovo-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lg-logo-black-and-white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lg-logo-black-and-white1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +172,17 @@
   <data name="lg-gl-n292rdsy-260-l" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lg-gl-n292rdsy-260-l.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="buy-now (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy-now (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="animated-devices11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animated-devices11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vacuum1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vacuum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fff78f8977fc2868e169fd6e8d7312a5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fff78f8977fc2868e169fd6e8d7312a5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vacuum" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vacuum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +193,11 @@
   <data name="R (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="animated-devices2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated-devices2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sharp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,6 +211,12 @@
   <data name="OIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="img_332620" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_332620.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buy-now" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy-now.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img_85856" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img_85856.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -199,17 +226,20 @@
   <data name="OIP (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (19).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lenovo-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lenovo-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R (8)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (8)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apple-watch-series-6-gps-40mm-product-red-1200x900" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apple-watch-series-6-gps-40mm-product-red-1200x900.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Apple-iPhone-12-Pro-b-427x5461" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apple-iPhone-12-Pro-b-427x5461.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (11)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (11)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mobile-phone2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mobile-phone2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OIP (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mobile-phone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mobile-phone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,8 +256,14 @@
   <data name="OIP (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fff78f8977fc2868e169fd6e8d7312a5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fff78f8977fc2868e169fd6e8d7312a5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="animated-devices12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated-devices12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animated-devices1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated-devices1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (11)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (11)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apple-mac-laptop-250x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apple-mac-laptop-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,11 +274,17 @@
   <data name="Apple-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apple-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Apple-iPhone-12-Pro-b-427x546" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apple-iPhone-12-Pro-b-427x546.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OIP (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (11).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img_4722531" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img_4722531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (14).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_4722532" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_4722532.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (18).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,6 +304,12 @@
   <data name="Series6silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Series6silver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="R (6)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apple-iPhone-12-Pro-b-427x546" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apple-iPhone-12-Pro-b-427x546.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GR-Y331SLZB-2-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GR-Y331SLZB-2-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -277,9 +325,6 @@
   <data name="R (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="animated-devices2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\animated-devices2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="refurb-iphone11-white-2019" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\refurb-iphone11-white-2019.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -289,6 +334,12 @@
   <data name="R (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="R (12)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (12).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (11)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (11)3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img_472253" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img_472253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -297,6 +348,9 @@
   </data>
   <data name="M11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\M11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,8 +370,14 @@
   <data name="R (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="img_194915" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_194915.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="thumbbig-35935" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thumbbig-35935.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (11)5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (11)3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Apple-iPhone-14-Pro-Max-500x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apple-iPhone-14-Pro-Max-500x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,7 +391,7 @@
   <data name="animated-devices" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animated-devices.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vacuum1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vacuum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R (5)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (5)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -17,20 +17,20 @@ namespace pay_your_premium
         {
             InitializeComponent();
         }
-        private void User_Enter(object sender, EventArgs e)
-        {
-            if (User.Text == "Username")
-            {
-                User.Text = "";
-            }
-        }
-        private void User_Leave(object sender, EventArgs e)
-        {
-            if (User.Text == "")
-            {
-                User.Text = "Username";
-            }
-        }
+        //private void User_Enter(object sender, EventArgs e)
+        //{
+        //    if (User.Text == "Username")
+        //    {
+        //        User.Text = "";
+        //    }
+        //}
+        //private void User_Leave(object sender, EventArgs e)
+        //{
+        //    if (User.Text == "")
+        //    {
+        //        User.Text = "Username";
+        //    }
+        //}
 
         private void Pass_Enter(object sender, EventArgs e)
         {

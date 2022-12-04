@@ -114,5 +114,12 @@ namespace pay_your_premium
             this.Hide();
             form.Show();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Regist f4 = new Regist();
+            f4.Show();
+            this.Hide();
+        }
     }
 }

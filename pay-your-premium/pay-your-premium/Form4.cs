@@ -13,13 +13,13 @@ using System.Windows.Forms;
 namespace pay_your_premium
 {
   
-    public partial class Form4 : Form
+    public partial class Regist : Form
     {
         public string emai()
         {
             return email.Text;
         }
-        public Form4()
+        public Regist()
         {
             InitializeComponent();
         }

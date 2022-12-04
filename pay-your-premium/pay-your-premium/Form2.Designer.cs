@@ -29,224 +29,393 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Brands));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.close = new System.Windows.Forms.PictureBox();
-            this.LG = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnLG = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.sam = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnsam = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.hp = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnhp = new System.Windows.Forms.Button();
-            this.lenovo = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.sony = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
             this.sharp = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.sony = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.lenovo = new System.Windows.Forms.Panel();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.hp = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnhp = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.sam = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnsam = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.LG = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnLG = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
-            this.LG.SuspendLayout();
-            this.sam.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.hp.SuspendLayout();
-            this.lenovo.SuspendLayout();
-            this.sony.SuspendLayout();
             this.sharp.SuspendLayout();
+            this.sony.SuspendLayout();
+            this.lenovo.SuspendLayout();
+            this.hp.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.sam.SuspendLayout();
+            this.LG.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // panel3
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.close);
-            this.panel1.Location = new System.Drawing.Point(1, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1067, 37);
-            this.panel1.TabIndex = 0;
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(12, 69);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(480, 4);
+            this.panel3.TabIndex = 53;
             // 
             // label13
             // 
-            this.label13.Font = new System.Drawing.Font("Lucida Calligraphy", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(42, 10);
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(138)))));
+            this.label13.Font = new System.Drawing.Font("Monotype Corsiva", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(-1, 9);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(227, 23);
-            this.label13.TabIndex = 8;
-            this.label13.Text = "Pay Your Premium";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::pay_your_premium.Properties.Resources.online_icon1;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(35, 32);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.label13.Size = new System.Drawing.Size(377, 55);
+            this.label13.TabIndex = 52;
+            this.label13.Text = "Choose The Brand";
             // 
             // close
             // 
-            this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(80)))), ((int)(((byte)(170)))));
+            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.close.Image = global::pay_your_premium.Properties.Resources.error;
-            this.close.Location = new System.Drawing.Point(1027, 2);
+            this.close.Location = new System.Drawing.Point(1035, 4);
             this.close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(29, 28);
-            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.close.TabIndex = 7;
+            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.close.TabIndex = 51;
             this.close.TabStop = false;
-            this.close.Click += new System.EventHandler(this.close_Click);
             // 
-            // LG
+            // panel14
             // 
-            this.LG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.LG.Controls.Add(this.label3);
-            this.LG.Controls.Add(this.label1);
-            this.LG.Controls.Add(this.btnLG);
-            this.LG.Location = new System.Drawing.Point(29, 86);
-            this.LG.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.LG.Name = "LG";
-            this.LG.Size = new System.Drawing.Size(289, 173);
-            this.LG.TabIndex = 1;
-            this.LG.Paint += new System.Windows.Forms.PaintEventHandler(this.LG_Paint);
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
+            this.panel14.Location = new System.Drawing.Point(751, 326);
+            this.panel14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(290, 2);
+            this.panel14.TabIndex = 50;
             // 
-            // label3
+            // panel12
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(165, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 25);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "LG";
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(87)))), ((int)(((byte)(187)))));
+            this.panel12.Location = new System.Drawing.Point(39, 327);
+            this.panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(290, 2);
+            this.panel12.TabIndex = 49;
             // 
-            // label1
+            // panel13
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(147, 58);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 113);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "LG Electronics\' products include televisions,washing machines, computers , smart " +
-    "phones";
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
+            this.panel13.Location = new System.Drawing.Point(393, 327);
+            this.panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(300, 2);
+            this.panel13.TabIndex = 48;
             // 
-            // btnLG
+            // panel11
             // 
-            this.btnLG.BackColor = System.Drawing.Color.White;
-            this.btnLG.BackgroundImage = global::pay_your_premium.Properties.Resources.lg_logo_black_and_white1;
-            this.btnLG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnLG.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.btnLG.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnLG.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLG.Location = new System.Drawing.Point(3, 3);
-            this.btnLG.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLG.Name = "btnLG";
-            this.btnLG.Size = new System.Drawing.Size(116, 168);
-            this.btnLG.TabIndex = 2;
-            this.btnLG.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnLG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLG.UseVisualStyleBackColor = false;
-            this.btnLG.Click += new System.EventHandler(this.btnLG_Click);
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(87)))), ((int)(((byte)(187)))));
+            this.panel11.Location = new System.Drawing.Point(363, 327);
+            this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(2, 195);
+            this.panel11.TabIndex = 47;
             // 
-            // panel2
+            // panel10
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Location = new System.Drawing.Point(308, 84);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(0, 0);
-            this.panel2.TabIndex = 2;
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
+            this.panel10.Location = new System.Drawing.Point(720, 327);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(2, 195);
+            this.panel10.TabIndex = 46;
             // 
-            // sam
+            // panel9
             // 
-            this.sam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.sam.Controls.Add(this.label5);
-            this.sam.Controls.Add(this.label2);
-            this.sam.Controls.Add(this.btnsam);
-            this.sam.Location = new System.Drawing.Point(385, 86);
-            this.sam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sam.Name = "sam";
-            this.sam.Size = new System.Drawing.Size(289, 173);
-            this.sam.TabIndex = 5;
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(87)))), ((int)(((byte)(187)))));
+            this.panel9.Location = new System.Drawing.Point(363, 129);
+            this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(2, 200);
+            this.panel9.TabIndex = 45;
             // 
-            // label5
+            // sharp
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(129, 19);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 35);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "SAMSUNG";
+            this.sharp.BackColor = System.Drawing.Color.White;
+            this.sharp.Controls.Add(this.panel17);
+            this.sharp.Controls.Add(this.label9);
+            this.sharp.Controls.Add(this.label10);
+            this.sharp.Controls.Add(this.button5);
+            this.sharp.Location = new System.Drawing.Point(756, 352);
+            this.sharp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sharp.Name = "sharp";
+            this.sharp.Size = new System.Drawing.Size(289, 173);
+            this.sharp.TabIndex = 44;
             // 
-            // label2
+            // panel17
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(139, 57);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 113);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "SAMSUNG Electronics\' products include televisions,refrigerators, washing machines" +
-    ", computers , smart phones";
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.panel17.Location = new System.Drawing.Point(121, 0);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(2, 173);
+            this.panel17.TabIndex = 34;
             // 
-            // btnsam
+            // label9
             // 
-            this.btnsam.BackColor = System.Drawing.Color.White;
-            this.btnsam.BackgroundImage = global::pay_your_premium.Properties.Resources.img_85856;
-            this.btnsam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnsam.FlatAppearance.BorderSize = 0;
-            this.btnsam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnsam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnsam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsam.Location = new System.Drawing.Point(3, 3);
-            this.btnsam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnsam.Name = "btnsam";
-            this.btnsam.Size = new System.Drawing.Size(116, 168);
-            this.btnsam.TabIndex = 2;
-            this.btnsam.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnsam.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnsam.UseVisualStyleBackColor = false;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.label9.Location = new System.Drawing.Point(158, 15);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(103, 25);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "APPLE";
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.Location = new System.Drawing.Point(143, 71);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(132, 93);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "APPLE Electronics\' products include computers , smarts phones , watches";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.BackgroundImage = global::pay_your_premium.Properties.Resources.Apple_Logo;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(0, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(123, 173);
+            this.button5.TabIndex = 2;
+            this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // sony
+            // 
+            this.sony.BackColor = System.Drawing.Color.White;
+            this.sony.Controls.Add(this.panel18);
+            this.sony.Controls.Add(this.label11);
+            this.sony.Controls.Add(this.label8);
+            this.sony.Controls.Add(this.button4);
+            this.sony.Location = new System.Drawing.Point(395, 352);
+            this.sony.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sony.Name = "sony";
+            this.sony.Size = new System.Drawing.Size(289, 173);
+            this.sony.TabIndex = 43;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.panel18.Location = new System.Drawing.Point(127, 0);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(2, 173);
+            this.panel18.TabIndex = 34;
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.label11.Location = new System.Drawing.Point(161, 15);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(90, 25);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "SONY";
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.DimGray;
+            this.label8.Location = new System.Drawing.Point(142, 71);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(136, 95);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "SONYY Electronics\' products include televisions,refrigerators, washing machine";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.BackgroundImage = global::pay_your_premium.Properties.Resources.R__5_1;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(-2, -3);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(130, 176);
+            this.button4.TabIndex = 2;
+            this.button4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // lenovo
+            // 
+            this.lenovo.BackColor = System.Drawing.Color.White;
+            this.lenovo.Controls.Add(this.panel19);
+            this.lenovo.Controls.Add(this.label12);
+            this.lenovo.Controls.Add(this.label6);
+            this.lenovo.Controls.Add(this.button3);
+            this.lenovo.Location = new System.Drawing.Point(44, 352);
+            this.lenovo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lenovo.Name = "lenovo";
+            this.lenovo.Size = new System.Drawing.Size(289, 173);
+            this.lenovo.TabIndex = 42;
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.panel19.Location = new System.Drawing.Point(120, 0);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(2, 173);
+            this.panel19.TabIndex = 34;
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.label12.Location = new System.Drawing.Point(142, 15);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(122, 25);
+            this.label12.TabIndex = 7;
+            this.label12.Text = "LENOVO";
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.DimGray;
+            this.label6.Location = new System.Drawing.Point(131, 71);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(152, 93);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "LENOVO Electronics\' products include computer monitors , smart phones , taplets";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackgroundImage = global::pay_your_premium.Properties.Resources.Lenovo_logo;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(0, 0);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(120, 173);
+            this.button3.TabIndex = 2;
+            this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // hp
+            // 
+            this.hp.BackColor = System.Drawing.Color.White;
+            this.hp.Controls.Add(this.panel16);
+            this.hp.Controls.Add(this.label7);
+            this.hp.Controls.Add(this.label4);
+            this.hp.Controls.Add(this.btnhp);
+            this.hp.Location = new System.Drawing.Point(757, 136);
+            this.hp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hp.Name = "hp";
+            this.hp.Size = new System.Drawing.Size(289, 173);
+            this.hp.TabIndex = 41;
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.panel16.Location = new System.Drawing.Point(121, 1);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(2, 173);
+            this.panel16.TabIndex = 34;
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.label7.Location = new System.Drawing.Point(177, 13);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 25);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "HP";
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.Location = new System.Drawing.Point(143, 57);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(133, 92);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "HP Electronics\' products include, computer monitors , smart phones , Taplets";
+            // 
+            // btnhp
+            // 
+            this.btnhp.BackColor = System.Drawing.Color.White;
+            this.btnhp.BackgroundImage = global::pay_your_premium.Properties.Resources.R__1_;
+            this.btnhp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnhp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnhp.FlatAppearance.BorderSize = 0;
+            this.btnhp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnhp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.btnhp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnhp.Location = new System.Drawing.Point(0, 0);
+            this.btnhp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnhp.Name = "btnhp";
+            this.btnhp.Size = new System.Drawing.Size(123, 174);
+            this.btnhp.TabIndex = 2;
+            this.btnhp.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnhp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnhp.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
             this.panel4.Controls.Add(this.panel5);
-            this.panel4.Location = new System.Drawing.Point(719, 75);
+            this.panel4.Location = new System.Drawing.Point(720, 128);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(3, 220);
-            this.panel4.TabIndex = 6;
+            this.panel4.Size = new System.Drawing.Size(2, 200);
+            this.panel4.TabIndex = 40;
             // 
             // panel5
             // 
@@ -257,304 +426,150 @@
             this.panel5.Size = new System.Drawing.Size(3, 220);
             this.panel5.TabIndex = 7;
             // 
-            // hp
+            // sam
             // 
-            this.hp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.hp.Controls.Add(this.label7);
-            this.hp.Controls.Add(this.label4);
-            this.hp.Controls.Add(this.btnhp);
-            this.hp.Location = new System.Drawing.Point(746, 86);
-            this.hp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.hp.Name = "hp";
-            this.hp.Size = new System.Drawing.Size(289, 173);
-            this.hp.TabIndex = 6;
+            this.sam.BackColor = System.Drawing.Color.White;
+            this.sam.Controls.Add(this.panel15);
+            this.sam.Controls.Add(this.label5);
+            this.sam.Controls.Add(this.label2);
+            this.sam.Controls.Add(this.btnsam);
+            this.sam.Location = new System.Drawing.Point(396, 136);
+            this.sam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sam.Name = "sam";
+            this.sam.Size = new System.Drawing.Size(289, 173);
+            this.sam.TabIndex = 39;
             // 
-            // label7
+            // panel15
             // 
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(179, 19);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 25);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "HP";
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.panel15.Location = new System.Drawing.Point(126, 0);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(2, 173);
+            this.panel15.TabIndex = 34;
             // 
-            // label4
+            // label5
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(143, 64);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 113);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "HP Electronics\' products include, computer monitors , smart phones";
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.label5.Location = new System.Drawing.Point(136, 13);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(147, 35);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "SAMSUNG";
             // 
-            // btnhp
+            // label2
             // 
-            this.btnhp.BackColor = System.Drawing.Color.White;
-            this.btnhp.BackgroundImage = global::pay_your_premium.Properties.Resources.R__1_;
-            this.btnhp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnhp.FlatAppearance.BorderSize = 0;
-            this.btnhp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnhp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnhp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnhp.Location = new System.Drawing.Point(3, 2);
-            this.btnhp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnhp.Name = "btnhp";
-            this.btnhp.Size = new System.Drawing.Size(116, 168);
-            this.btnhp.TabIndex = 2;
-            this.btnhp.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnhp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnhp.UseVisualStyleBackColor = false;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(139, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(143, 113);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "SAMSUNG Electronics\' products include televisions,refrigerators, washing machines" +
+    ", computers , smart phones";
             // 
-            // lenovo
+            // btnsam
             // 
-            this.lenovo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.lenovo.Controls.Add(this.label12);
-            this.lenovo.Controls.Add(this.label6);
-            this.lenovo.Controls.Add(this.button3);
-            this.lenovo.Location = new System.Drawing.Point(34, 322);
-            this.lenovo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lenovo.Name = "lenovo";
-            this.lenovo.Size = new System.Drawing.Size(289, 173);
-            this.lenovo.TabIndex = 6;
+            this.btnsam.BackColor = System.Drawing.Color.White;
+            this.btnsam.BackgroundImage = global::pay_your_premium.Properties.Resources.R__6_1;
+            this.btnsam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnsam.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnsam.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.btnsam.FlatAppearance.BorderSize = 0;
+            this.btnsam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnsam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.btnsam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsam.Location = new System.Drawing.Point(0, -3);
+            this.btnsam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnsam.Name = "btnsam";
+            this.btnsam.Size = new System.Drawing.Size(128, 177);
+            this.btnsam.TabIndex = 2;
+            this.btnsam.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnsam.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnsam.UseVisualStyleBackColor = false;
             // 
-            // label12
+            // panel2
             // 
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(139, 26);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(141, 25);
-            this.label12.TabIndex = 7;
-            this.label12.Text = "LENOVO";
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(318, 114);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(0, 0);
+            this.panel2.TabIndex = 38;
             // 
-            // label6
+            // LG
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(142, 69);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(132, 113);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "LENOVO Electronics\' products include computer monitors , smart phones , taplets";
+            this.LG.BackColor = System.Drawing.Color.White;
+            this.LG.Controls.Add(this.label3);
+            this.LG.Controls.Add(this.panel1);
+            this.LG.Controls.Add(this.label1);
+            this.LG.Controls.Add(this.btnLG);
+            this.LG.Location = new System.Drawing.Point(45, 133);
+            this.LG.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.LG.Name = "LG";
+            this.LG.Size = new System.Drawing.Size(289, 173);
+            this.LG.TabIndex = 37;
             // 
-            // button3
+            // label3
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.BackgroundImage = global::pay_your_premium.Properties.Resources.Lenovo_logo;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(3, 3);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(116, 168);
-            this.button3.TabIndex = 2;
-            this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = false;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.label3.Location = new System.Drawing.Point(171, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(67, 25);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "LG";
             // 
-            // sony
+            // panel1
             // 
-            this.sony.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.sony.Controls.Add(this.label11);
-            this.sony.Controls.Add(this.label8);
-            this.sony.Controls.Add(this.button4);
-            this.sony.Location = new System.Drawing.Point(385, 322);
-            this.sony.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sony.Name = "sony";
-            this.sony.Size = new System.Drawing.Size(289, 173);
-            this.sony.TabIndex = 6;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(88)))), ((int)(((byte)(172)))));
+            this.panel1.Location = new System.Drawing.Point(118, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(2, 173);
+            this.panel1.TabIndex = 33;
             // 
-            // label11
+            // label1
             // 
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(156, 24);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(115, 25);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "SONY";
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.Location = new System.Drawing.Point(131, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(137, 112);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "LG Electronics\' products include televisions,washing machines, computers , smart " +
+    "phones";
             // 
-            // label8
+            // btnLG
             // 
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(139, 71);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(132, 113);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "SONYY Electronics\' products include televisions,refrigerators, washing machine";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.BackgroundImage = global::pay_your_premium.Properties.Resources.R__5_;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(3, 3);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(116, 168);
-            this.button4.TabIndex = 2;
-            this.button4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // sharp
-            // 
-            this.sharp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.sharp.Controls.Add(this.label9);
-            this.sharp.Controls.Add(this.label10);
-            this.sharp.Controls.Add(this.button5);
-            this.sharp.Location = new System.Drawing.Point(746, 322);
-            this.sharp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sharp.Name = "sharp";
-            this.sharp.Size = new System.Drawing.Size(289, 173);
-            this.sharp.TabIndex = 6;
-            // 
-            // label9
-            // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(159, 27);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(126, 25);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "APPLE";
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(134, 71);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(132, 113);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "APPLE Electronics\' products include computers , smarts phones , watches";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.BackgroundImage = global::pay_your_premium.Properties.Resources.Apple_Logo;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(3, 3);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(116, 168);
-            this.button5.TabIndex = 2;
-            this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel9.Location = new System.Drawing.Point(338, 75);
-            this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(3, 220);
-            this.panel9.TabIndex = 7;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel10.Location = new System.Drawing.Point(719, 318);
-            this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(3, 195);
-            this.panel10.TabIndex = 8;
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel11.Location = new System.Drawing.Point(337, 318);
-            this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(3, 195);
-            this.panel11.TabIndex = 9;
-            // 
-            // panel13
-            // 
-            this.panel13.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel13.Location = new System.Drawing.Point(383, 290);
-            this.panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(290, 3);
-            this.panel13.TabIndex = 11;
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel12.Location = new System.Drawing.Point(29, 290);
-            this.panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(290, 3);
-            this.panel12.TabIndex = 12;
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel14.Location = new System.Drawing.Point(741, 289);
-            this.panel14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(290, 3);
-            this.panel14.TabIndex = 13;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel3.Location = new System.Drawing.Point(368, 75);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(3, 220);
-            this.panel3.TabIndex = 8;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel6.Location = new System.Drawing.Point(691, 75);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(3, 220);
-            this.panel6.TabIndex = 8;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel7.Location = new System.Drawing.Point(367, 318);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(3, 195);
-            this.panel7.TabIndex = 14;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel8.Location = new System.Drawing.Point(691, 319);
-            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(3, 195);
-            this.panel8.TabIndex = 10;
+            this.btnLG.BackColor = System.Drawing.Color.White;
+            this.btnLG.BackgroundImage = global::pay_your_premium.Properties.Resources.lg_logo_black_and_white1;
+            this.btnLG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnLG.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLG.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.btnLG.FlatAppearance.BorderSize = 0;
+            this.btnLG.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnLG.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.btnLG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLG.Location = new System.Drawing.Point(0, 0);
+            this.btnLG.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLG.Name = "btnLG";
+            this.btnLG.Size = new System.Drawing.Size(121, 174);
+            this.btnLG.TabIndex = 2;
+            this.btnLG.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLG.UseVisualStyleBackColor = false;
             // 
             // Brands
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::pay_your_premium.Properties.Resources.R__11_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.close);
             this.Controls.Add(this.panel14);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel13);
@@ -569,68 +584,66 @@
             this.Controls.Add(this.sam);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.LG);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Brands";
             this.Text = "Brands";
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
-            this.LG.ResumeLayout(false);
-            this.sam.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.hp.ResumeLayout(false);
-            this.lenovo.ResumeLayout(false);
-            this.sony.ResumeLayout(false);
             this.sharp.ResumeLayout(false);
+            this.sony.ResumeLayout(false);
+            this.lenovo.ResumeLayout(false);
+            this.hp.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.sam.ResumeLayout(false);
+            this.LG.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox close;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel LG;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel sam;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnsam;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel hp;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnhp;
-        private System.Windows.Forms.Panel lenovo;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel sony;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel sharp;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Button btnLG;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel sony;
+        private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel lenovo;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel hp;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnhp;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel sam;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnsam;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel LG;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnLG;
     }
 }
