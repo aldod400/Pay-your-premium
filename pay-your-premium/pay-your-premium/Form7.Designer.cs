@@ -49,13 +49,14 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(241, 376);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(181, 306);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(240, 48);
+            this.button1.Size = new System.Drawing.Size(180, 39);
             this.button1.TabIndex = 17;
             this.button1.Text = "Create Acount";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel1
             // 
@@ -68,10 +69,10 @@
             this.panel1.Controls.Add(this.Pass);
             this.panel1.Controls.Add(this.pnlpass);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(331, 50);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(248, 41);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(697, 482);
+            this.panel1.Size = new System.Drawing.Size(523, 392);
             this.panel1.TabIndex = 9;
             // 
             // email
@@ -81,10 +82,10 @@
             this.email.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.ForeColor = System.Drawing.Color.DimGray;
             this.email.HideSelection = false;
-            this.email.Location = new System.Drawing.Point(224, 135);
-            this.email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.email.Location = new System.Drawing.Point(168, 110);
+            this.email.Margin = new System.Windows.Forms.Padding(2);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(268, 24);
+            this.email.Size = new System.Drawing.Size(201, 19);
             this.email.TabIndex = 15;
             this.email.TabStop = false;
             this.email.Text = "Email";
@@ -94,10 +95,10 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
-            this.panel3.Location = new System.Drawing.Point(224, 167);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Location = new System.Drawing.Point(168, 136);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(269, 2);
+            this.panel3.Size = new System.Drawing.Size(202, 2);
             this.panel3.TabIndex = 16;
             // 
             // confirm
@@ -107,10 +108,10 @@
             this.confirm.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F);
             this.confirm.ForeColor = System.Drawing.Color.DimGray;
             this.confirm.HideSelection = false;
-            this.confirm.Location = new System.Drawing.Point(223, 278);
-            this.confirm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.confirm.Location = new System.Drawing.Point(167, 226);
+            this.confirm.Margin = new System.Windows.Forms.Padding(2);
             this.confirm.Name = "confirm";
-            this.confirm.Size = new System.Drawing.Size(268, 24);
+            this.confirm.Size = new System.Drawing.Size(201, 19);
             this.confirm.TabIndex = 13;
             this.confirm.TabStop = false;
             this.confirm.Text = "Confirm Password";
@@ -120,10 +121,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
-            this.panel2.Location = new System.Drawing.Point(223, 311);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Location = new System.Drawing.Point(167, 253);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(269, 2);
+            this.panel2.Size = new System.Drawing.Size(202, 2);
             this.panel2.TabIndex = 14;
             // 
             // Pass
@@ -133,10 +134,10 @@
             this.Pass.Font = new System.Drawing.Font("Microsoft Yi Baiti", 13.8F);
             this.Pass.ForeColor = System.Drawing.Color.DimGray;
             this.Pass.HideSelection = false;
-            this.Pass.Location = new System.Drawing.Point(223, 209);
-            this.Pass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Pass.Location = new System.Drawing.Point(167, 170);
+            this.Pass.Margin = new System.Windows.Forms.Padding(2);
             this.Pass.Name = "Pass";
-            this.Pass.Size = new System.Drawing.Size(268, 24);
+            this.Pass.Size = new System.Drawing.Size(201, 19);
             this.Pass.TabIndex = 9;
             this.Pass.TabStop = false;
             this.Pass.Text = "Password";
@@ -146,19 +147,20 @@
             // pnlpass
             // 
             this.pnlpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
-            this.pnlpass.Location = new System.Drawing.Point(223, 243);
-            this.pnlpass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlpass.Location = new System.Drawing.Point(167, 197);
+            this.pnlpass.Margin = new System.Windows.Forms.Padding(2);
             this.pnlpass.Name = "pnlpass";
-            this.pnlpass.Size = new System.Drawing.Size(269, 2);
+            this.pnlpass.Size = new System.Drawing.Size(202, 2);
             this.pnlpass.TabIndex = 11;
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 19.8F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(86)))), ((int)(((byte)(170)))));
-            this.label2.Location = new System.Drawing.Point(209, 31);
+            this.label2.Location = new System.Drawing.Point(157, 25);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(308, 34);
+            this.label2.Size = new System.Drawing.Size(231, 28);
             this.label2.TabIndex = 1;
             this.label2.Text = "Update Your Acount";
             // 
@@ -166,39 +168,40 @@
             // 
             this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(79)))), ((int)(((byte)(170)))));
             this.close.Image = global::pay_your_premium.Properties.Resources.error;
-            this.close.Location = new System.Drawing.Point(1032, 1);
-            this.close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.close.Location = new System.Drawing.Point(774, 1);
+            this.close.Margin = new System.Windows.Forms.Padding(2);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(29, 28);
+            this.close.Size = new System.Drawing.Size(22, 23);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.close.TabIndex = 13;
             this.close.TabStop = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(86)))), ((int)(((byte)(170)))));
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(-9, 205);
+            this.label1.Location = new System.Drawing.Point(-7, 167);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(334, 145);
+            this.label1.Size = new System.Drawing.Size(250, 118);
             this.label1.TabIndex = 14;
             this.label1.Text = "   Pay Your           Premium   ";
             // 
             // Form7
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
             this.BackgroundImage = global::pay_your_premium.Properties.Resources.R__11_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.close);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form7";

@@ -82,22 +82,64 @@ namespace pay_your_premium
             }
             confirm.UseSystemPasswordChar = false;
         }
+        private void Form7_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        SqlConnection cn = new SqlConnection(@"Data Source=DESKTOP-RGLU690;Initial Catalog=pay_your_premium;Integrated Security=True");
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void close_Click_1(object sender, EventArgs e)
+        {
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if(email.Text == "" || email.Text == "Email")
+            {
+                MessageBox.Show("Please Inter Your Email");
+            }
+            else
+            {
+                cn.Open();
+                SqlCommand sq = new SqlCommand("SELECT * FROM users WHERE user_email = '" + email.Text + "'", cn);
+                SqlDataReader dr = sq.ExecuteReader();
+                if (dr.HasRows == true)
+                {
+                    dr.Close();
+                    if (Pass.Text == "Password" || Pass.Text == "" || confirm.Text == "Confirm Password" || confirm.Text == "")
+                    {
+                        MessageBox.Show("Please Enter The New Password");
+                    }
+                    else
+                    {
+                        SqlCommand sql = new SqlCommand("UPDATE users SET  user_password = '" + Pass.Text + "'  WHERE user_email ='" + email.Text + "'", cn);
+                        sql.ExecuteNonQuery();
+                        MessageBox.Show("Your Email Is Updated");
+                        email.Text = "Email";
+                        Pass.Text = "Password";
+                        confirm.Text = "Confirm Password";
+                        this.Close();
+                        Login l = new Login();
+                        l.Show();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Invalid Email");
+                }
+            }
+            
+            cn.Close();
+        }
+
         private void close_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-        //SqlConnection cn = new SqlConnection(@"Data Source=DESKTOP-RGLU690;Initial Catalog=pay_your_premium;Integrated Security=True");
-        //Form4 form4 = new Form4();
-        private void Form7_Load(object sender, EventArgs e)
-        {
-            //cn.Open();
-            //SqlCommand sql = new SqlCommand("SELECT * FROM [pay_your_premium].[dbo].[users] WHERE user_email ='" + form4.emai()+"'", cn);
-            //SqlDataReader sdr = sql.ExecuteReader();
-            //sdr.Read();
-            //User.Text = sdr["user_name"].ToString();
-            //email.Text = sdr["user_email"].ToString();
-            //sdr.Close();
-            //cn.Close();
         }
     }
 }

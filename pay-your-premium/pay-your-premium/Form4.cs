@@ -15,10 +15,6 @@ namespace pay_your_premium
   
     public partial class Regist : Form
     {
-        public string emai()
-        {
-            return email.Text;
-        }
         public Regist()
         {
             InitializeComponent();

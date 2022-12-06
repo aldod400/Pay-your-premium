@@ -18,7 +18,6 @@ namespace pay_your_premium
             InitializeComponent();
         }
 
-
         private void picpass_MouseDown(object sender, MouseEventArgs e)
         {
             Pass.UseSystemPasswordChar = false;
