@@ -54,7 +54,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 39);
             this.button1.TabIndex = 17;
-            this.button1.Text = "Create Acount";
+            this.button1.Text = "Update  Acount";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -160,7 +160,7 @@
             this.label2.Location = new System.Drawing.Point(157, 25);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(231, 28);
+            this.label2.Size = new System.Drawing.Size(245, 28);
             this.label2.TabIndex = 1;
             this.label2.Text = "Update Your Acount";
             // 
@@ -185,9 +185,9 @@
             this.label1.Location = new System.Drawing.Point(-7, 167);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 118);
+            this.label1.Size = new System.Drawing.Size(251, 129);
             this.label1.TabIndex = 14;
-            this.label1.Text = "   Pay Your           Premium   ";
+            this.label1.Text = "   Pay Your          Premium   ";
             // 
             // Form7
             // 

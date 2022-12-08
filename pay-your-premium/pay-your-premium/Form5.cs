@@ -106,5 +106,45 @@ namespace pay_your_premium
             pnlvacuum.Visible = false;
             pnlproj.Visible = true;
         }
+        double price = 0;
+        private void button6_Click(object sender, EventArgs e)
+        {
+            price += 589.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            price += 999.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            price += 999.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            price += 799.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            price += 1.990;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
     }
 }

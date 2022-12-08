@@ -22,11 +22,6 @@ namespace pay_your_premium
             this.Close();
         }
 
-        private void LG_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void btnLG_Click(object sender, EventArgs e)
         {
             LG f5 = new LG();

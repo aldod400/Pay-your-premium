@@ -46,10 +46,10 @@
             this.pnltxt.Controls.Add(this.label3);
             this.pnltxt.Controls.Add(this.label2);
             this.pnltxt.Controls.Add(this.label1);
-            this.pnltxt.Location = new System.Drawing.Point(709, 282);
-            this.pnltxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnltxt.Location = new System.Drawing.Point(532, 229);
+            this.pnltxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnltxt.Name = "pnltxt";
-            this.pnltxt.Size = new System.Drawing.Size(345, 233);
+            this.pnltxt.Size = new System.Drawing.Size(259, 189);
             this.pnltxt.TabIndex = 19;
             // 
             // label3
@@ -57,9 +57,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(196, 153);
+            this.label3.Location = new System.Drawing.Point(147, 124);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 52);
+            this.label3.Size = new System.Drawing.Size(94, 43);
             this.label3.TabIndex = 2;
             this.label3.Text = "Server";
             // 
@@ -68,9 +69,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 47);
+            this.label2.Location = new System.Drawing.Point(2, 38);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(217, 52);
+            this.label2.Size = new System.Drawing.Size(178, 43);
             this.label2.TabIndex = 1;
             this.label2.Text = "Welcome To ";
             // 
@@ -78,9 +80,10 @@
             // 
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 25.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 105);
+            this.label1.Location = new System.Drawing.Point(2, 85);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(339, 57);
+            this.label1.Size = new System.Drawing.Size(254, 46);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pay Your Premium";
             // 
@@ -93,9 +96,10 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::pay_your_premium.Properties.Resources._1439179;
-            this.button3.Location = new System.Drawing.Point(78, 251);
+            this.button3.Location = new System.Drawing.Point(58, 204);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(217, 53);
+            this.button3.Size = new System.Drawing.Size(163, 43);
             this.button3.TabIndex = 18;
             this.button3.Text = "    Premiums";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -111,13 +115,15 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::pay_your_premium.Properties.Resources.R__8_3;
-            this.button2.Location = new System.Drawing.Point(78, 341);
+            this.button2.Location = new System.Drawing.Point(58, 277);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 53);
+            this.button2.Size = new System.Drawing.Size(163, 43);
             this.button2.TabIndex = 17;
             this.button2.Text = "     Clients";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -128,9 +134,10 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::pay_your_premium.Properties.Resources.img_332620;
-            this.button1.Location = new System.Drawing.Point(78, 160);
+            this.button1.Location = new System.Drawing.Point(58, 130);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 55);
+            this.button1.Size = new System.Drawing.Size(163, 45);
             this.button1.TabIndex = 16;
             this.button1.Text = "    Brands";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -142,10 +149,10 @@
             this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
             this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.close.Image = global::pay_your_premium.Properties.Resources.error1;
-            this.close.Location = new System.Drawing.Point(1027, 2);
-            this.close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.close.Location = new System.Drawing.Point(770, 2);
+            this.close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(29, 28);
+            this.close.Size = new System.Drawing.Size(22, 23);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.close.TabIndex = 15;
             this.close.TabStop = false;
@@ -153,17 +160,18 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::pay_your_premium.Properties.Resources.animated_devices12;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pnltxt);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.close);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Main";
             this.Text = "Form8";
             this.pnltxt.ResumeLayout(false);

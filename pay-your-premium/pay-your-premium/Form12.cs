@@ -14,7 +14,7 @@ namespace pay_your_premium
     {
         int subscrip;
         string clientname;
-        int clientid;
+        double clientid;
         string start;
         string end;
         string compname;
@@ -30,7 +30,7 @@ namespace pay_your_premium
         {
             subscrip = int.Parse(sub.Text);
             clientname = client.Text;
-            clientid = int.Parse(ID.Text);
+            clientid = double.Parse(ID.Text);
             start = dateTimePicker1.Text;
             end = dateTimePicker2.Text;
             compname = comnam.Text;
@@ -47,6 +47,11 @@ namespace pay_your_premium
         private void close_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void ID_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

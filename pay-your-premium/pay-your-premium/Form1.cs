@@ -86,7 +86,7 @@ namespace pay_your_premium
                 if (sdr.HasRows == true)
                 {
                     this.Hide();
-                    Brands f2 = new Brands();
+                    Main f2 = new Main();
                     f2.Show();
                 }
                 else
