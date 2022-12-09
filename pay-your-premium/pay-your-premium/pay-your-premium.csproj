@@ -113,6 +113,12 @@
     <Compile Include="Form12.Designer.cs">
       <DependentUpon>Form12.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form12.resx">
       <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -236,6 +245,43 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="phone.ico" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\hpprinter4.jpg" />
+    <None Include="Resources\hpprinter3.jpg" />
+    <None Include="Resources\hpprinter2.jpg" />
+    <None Include="Resources\hpprint1.jpg" />
+    <None Include="Resources\hpcom8.jpg" />
+    <None Include="Resources\hpcom7.jpg" />
+    <None Include="Resources\hpcom6.jpg" />
+    <None Include="Resources\hpcom5.jpg" />
+    <None Include="Resources\hpcom4.jpg" />
+    <None Include="Resources\hpcom3.jpg" />
+    <None Include="Resources\hpcom2.jpg" />
+    <None Include="Resources\hpcom1.jpg" />
+    <None Include="Resources\samtv4.jpg" />
+    <None Include="Resources\samtv3.jpg" />
+    <None Include="Resources\samtv2.jpg" />
+    <None Include="Resources\samtv1.png" />
+    <None Include="Resources\samtv.jpg" />
+    <None Include="Resources\samwatch5.jpg" />
+    <None Include="Resources\samwatch4.jpg" />
+    <None Include="Resources\samwatch3.jpg" />
+    <None Include="Resources\samwatch2.jpg" />
+    <None Include="Resources\samwatch1.jpg" />
+    <None Include="Resources\samcom6.jpg" />
+    <None Include="Resources\samcom5.jpg" />
+    <None Include="Resources\samcom4.jpg" />
+    <None Include="Resources\samcom3.jpg" />
+    <None Include="Resources\samcom2.jpg" />
+    <None Include="Resources\samcom1.jpg" />
+    <None Include="Resources\samphone7.jpg" />
+    <None Include="Resources\samphone6.jpg" />
+    <None Include="Resources\samphone5.jpg" />
+    <None Include="Resources\samphone4.jpg" />
+    <None Include="Resources\samphone3.jpg" />
+    <None Include="Resources\samphone2.jpg" />
+    <None Include="Resources\samphone1.jpg" />
+    <None Include="Resources\tv.png" />
     <None Include="Resources\R %285%291.png" />
     <None Include="Resources\R %286%29.png" />
     <None Include="Resources\buy-now %281%29.png" />

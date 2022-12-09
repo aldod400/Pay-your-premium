@@ -37,9 +37,16 @@ namespace pay_your_premium
 
         private void btnsam_Click(object sender, EventArgs e)
         {
-            Main f8 = new Main();
+            SAMSUNG f11 = new SAMSUNG();
+            f11.Show();
             this.Hide();
-            f8.Show();
+        }
+
+        private void btnhp_Click(object sender, EventArgs e)
+        {
+            HP f13 = new HP();
+            f13.Show();
+            this.Hide();
         }
     }
 }

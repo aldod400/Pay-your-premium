@@ -24,9 +24,7 @@ namespace pay_your_premium
 
         private void button2_Click(object sender, EventArgs e)
         {
-            paypremium f11 = new paypremium();
-            this.Hide();
-            f11.Show();
+
         }
     }
 }
