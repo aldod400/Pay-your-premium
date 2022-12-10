@@ -146,5 +146,12 @@ namespace pay_your_premium
             this.Hide();
             cont.Show();
         }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            Brands f2 = new Brands();
+            f2.Show();
+            this.Hide();
+        }
     }
 }

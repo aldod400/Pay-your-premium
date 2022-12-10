@@ -118,7 +118,7 @@
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
-            this.panel14.Location = new System.Drawing.Point(751, 326);
+            this.panel14.Location = new System.Drawing.Point(762, 321);
             this.panel14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(291, 2);
@@ -127,7 +127,7 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(87)))), ((int)(((byte)(187)))));
-            this.panel12.Location = new System.Drawing.Point(39, 327);
+            this.panel12.Location = new System.Drawing.Point(50, 322);
             this.panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(291, 2);
@@ -136,7 +136,7 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
-            this.panel13.Location = new System.Drawing.Point(393, 327);
+            this.panel13.Location = new System.Drawing.Point(404, 322);
             this.panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(300, 2);
@@ -145,7 +145,7 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(87)))), ((int)(((byte)(187)))));
-            this.panel11.Location = new System.Drawing.Point(363, 327);
+            this.panel11.Location = new System.Drawing.Point(374, 322);
             this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(3, 194);
@@ -154,7 +154,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
-            this.panel10.Location = new System.Drawing.Point(720, 327);
+            this.panel10.Location = new System.Drawing.Point(731, 322);
             this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(3, 194);
@@ -163,7 +163,7 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(87)))), ((int)(((byte)(187)))));
-            this.panel9.Location = new System.Drawing.Point(363, 129);
+            this.panel9.Location = new System.Drawing.Point(374, 124);
             this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(3, 199);
@@ -176,7 +176,7 @@
             this.sharp.Controls.Add(this.label9);
             this.sharp.Controls.Add(this.label10);
             this.sharp.Controls.Add(this.btnAPPLE);
-            this.sharp.Location = new System.Drawing.Point(756, 352);
+            this.sharp.Location = new System.Drawing.Point(767, 347);
             this.sharp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sharp.Name = "sharp";
             this.sharp.Size = new System.Drawing.Size(289, 174);
@@ -238,7 +238,7 @@
             this.sony.Controls.Add(this.label11);
             this.sony.Controls.Add(this.label8);
             this.sony.Controls.Add(this.btnsony);
-            this.sony.Location = new System.Drawing.Point(395, 352);
+            this.sony.Location = new System.Drawing.Point(406, 347);
             this.sony.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sony.Name = "sony";
             this.sony.Size = new System.Drawing.Size(289, 174);
@@ -291,6 +291,7 @@
             this.btnsony.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnsony.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnsony.UseVisualStyleBackColor = false;
+            this.btnsony.Click += new System.EventHandler(this.btnsony_Click);
             // 
             // lenovo
             // 
@@ -299,7 +300,7 @@
             this.lenovo.Controls.Add(this.label12);
             this.lenovo.Controls.Add(this.label6);
             this.lenovo.Controls.Add(this.btnlenovo);
-            this.lenovo.Location = new System.Drawing.Point(44, 352);
+            this.lenovo.Location = new System.Drawing.Point(55, 347);
             this.lenovo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lenovo.Name = "lenovo";
             this.lenovo.Size = new System.Drawing.Size(289, 174);
@@ -332,7 +333,8 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(152, 94);
             this.label6.TabIndex = 4;
-            this.label6.Text = "LENOVO Electronics\' products include computer monitors , smart phones , taplets";
+            this.label6.Text = "LENOVO Electronics\' products include computer monitors , smart phones , taplets ," +
+    " watchs";
             // 
             // btnlenovo
             // 
@@ -352,6 +354,7 @@
             this.btnlenovo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnlenovo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnlenovo.UseVisualStyleBackColor = false;
+            this.btnlenovo.Click += new System.EventHandler(this.btnlenovo_Click);
             // 
             // hp
             // 
@@ -360,7 +363,7 @@
             this.hp.Controls.Add(this.label7);
             this.hp.Controls.Add(this.label4);
             this.hp.Controls.Add(this.btnhp);
-            this.hp.Location = new System.Drawing.Point(757, 135);
+            this.hp.Location = new System.Drawing.Point(768, 130);
             this.hp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hp.Name = "hp";
             this.hp.Size = new System.Drawing.Size(289, 174);
@@ -419,7 +422,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(132)))), ((int)(((byte)(196)))));
             this.panel4.Controls.Add(this.panel5);
-            this.panel4.Location = new System.Drawing.Point(720, 128);
+            this.panel4.Location = new System.Drawing.Point(731, 123);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(3, 199);
@@ -441,7 +444,7 @@
             this.sam.Controls.Add(this.label5);
             this.sam.Controls.Add(this.label2);
             this.sam.Controls.Add(this.btnsam);
-            this.sam.Location = new System.Drawing.Point(396, 135);
+            this.sam.Location = new System.Drawing.Point(407, 130);
             this.sam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sam.Name = "sam";
             this.sam.Size = new System.Drawing.Size(289, 174);
@@ -514,7 +517,7 @@
             this.LG.Controls.Add(this.panel1);
             this.LG.Controls.Add(this.label1);
             this.LG.Controls.Add(this.btnLG);
-            this.LG.Location = new System.Drawing.Point(45, 133);
+            this.LG.Location = new System.Drawing.Point(56, 128);
             this.LG.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LG.Name = "LG";
             this.LG.Size = new System.Drawing.Size(289, 174);

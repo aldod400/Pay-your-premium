@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace pay_your_premium
+namespace pay_your_premium 
 {
     public partial class HP : Form
     {
@@ -33,9 +33,11 @@ namespace pay_your_premium
             panel4.Top = combtn.Top;
             panel4.Visible = true;
             panel2.Visible = false;
-           
+            panel3.Visible = false;
+
             pnlcom.Visible = true;
             pnlprinter.Visible = false;
+            pnlscanner.Visible = false;
 
         }
 
@@ -45,9 +47,31 @@ namespace pay_your_premium
             panel4.Top = printerbtn.Top;
             panel4.Visible = false;
             panel2.Visible = true;
+            panel3.Visible = false;
 
             pnlcom.Visible = false;
             pnlprinter.Visible = true;
+            pnlscanner.Visible = false;
+        }
+
+        private void scannerbtn_Click(object sender, EventArgs e)
+        {
+            panel4.Height = scannerbtn.Height;
+            panel4.Top = scannerbtn.Top;
+            panel4.Visible = false;
+            panel2.Visible = false;
+            panel3.Visible = true;
+
+            pnlcom.Visible = false;
+            pnlprinter.Visible = false;
+            pnlscanner.Visible = true;
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            Brands f2 = new Brands();
+            f2.Show();
+            this.Hide();
         }
     }
 }

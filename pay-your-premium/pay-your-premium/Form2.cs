@@ -48,5 +48,19 @@ namespace pay_your_premium
             f13.Show();
             this.Hide();
         }
+
+        private void btnlenovo_Click(object sender, EventArgs e)
+        {
+            LENOVO f14 = new LENOVO();
+            f14.Show();
+            this.Hide();
+        }
+
+        private void btnsony_Click(object sender, EventArgs e)
+        {
+            SONY f15 = new SONY();
+            f15.Show();
+            this.Hide();
+        }
     }
 }

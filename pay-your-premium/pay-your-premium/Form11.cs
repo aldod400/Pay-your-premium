@@ -81,5 +81,12 @@ namespace pay_your_premium
             pnlwatch.Visible = false;
             pnltv.Visible = true;
         }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            Brands f2 = new Brands();
+            f2.Show();
+            this.Hide();
+        }
     }
 }

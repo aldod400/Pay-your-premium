@@ -122,13 +122,14 @@
             this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(80)))), ((int)(((byte)(170)))));
             this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.close.Image = global::pay_your_premium.Properties.Resources.error;
-            this.close.Location = new System.Drawing.Point(807, 5);
+            this.close.Location = new System.Drawing.Point(811, 4);
             this.close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(29, 28);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.close.TabIndex = 20;
             this.close.TabStop = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // pictureBox1
             // 

@@ -119,6 +119,18 @@
     <Compile Include="Form13.Designer.cs">
       <DependentUpon>Form13.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +189,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form13.resx">
       <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -245,6 +263,64 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="phone.ico" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\speaker.png" />
+    <None Include="Resources\sonyspeak5.jpg" />
+    <None Include="Resources\sonyspeak4.jpg" />
+    <None Include="Resources\Sonyspeak3.jpg" />
+    <None Include="Resources\sonyspeak2.jpg" />
+    <None Include="Resources\sonypro7.jpg" />
+    <None Include="Resources\sonypro6.jpg" />
+    <None Include="Resources\sonypro5.jpg" />
+    <None Include="Resources\sonypro3.jpg" />
+    <None Include="Resources\sonypro4.jpg" />
+    <None Include="Resources\sonypro2.jpg" />
+    <None Include="Resources\sonypro1.jpg" />
+    <None Include="Resources\fan.png" />
+    <None Include="Resources\sonyfan3.jpg" />
+    <None Include="Resources\sonyfan2.jpg" />
+    <None Include="Resources\sonyfan1.jpg" />
+    <None Include="Resources\sonytv7.jpg" />
+    <None Include="Resources\sonytv6.jpg" />
+    <None Include="Resources\sonytv4 - Copy.jpg" />
+    <None Include="Resources\sonytv5.jpg" />
+    <None Include="Resources\sonytv4.jpg" />
+    <None Include="Resources\sonytv42.jpg" />
+    <None Include="Resources\sonytv3.png" />
+    <None Include="Resources\sonytv2.jpg" />
+    <None Include="Resources\sonytv1.jpg" />
+    <None Include="Resources\lenovowatch5.jpg" />
+    <None Include="Resources\lenovowatch4.jpg" />
+    <None Include="Resources\lenovowatch3.jpg" />
+    <None Include="Resources\Lenovotwatch2.png" />
+    <None Include="Resources\lenovowatch1.jpg" />
+    <None Include="Resources\lenovotap5.jpg" />
+    <None Include="Resources\lenovotap4.jpg" />
+    <None Include="Resources\lenovotap2.jpg" />
+    <None Include="Resources\lenovotap11.jpg" />
+    <None Include="Resources\lenovotap1.jpg" />
+    <None Include="Resources\lenovotap.jpg" />
+    <None Include="Resources\tablet.png" />
+    <None Include="Resources\Lenovolap7.jpg" />
+    <None Include="Resources\lenovolap6.jpg" />
+    <None Include="Resources\lenovolap5.jpg" />
+    <None Include="Resources\lenovolap4.jpg" />
+    <None Include="Resources\lenovolap2.jpg" />
+    <None Include="Resources\lenovolap1.jpg" />
+    <None Include="Resources\lenovolap.jpg" />
+    <None Include="Resources\lenovophone7.jpg" />
+    <None Include="Resources\lenovophone5.jpg" />
+    <None Include="Resources\lenovophone4.jpg" />
+    <None Include="Resources\lenovophone3.jpg" />
+    <None Include="Resources\lenovophone2.jpg" />
+    <None Include="Resources\lenovophone1.jpg" />
+    <None Include="Resources\scanner.png" />
+    <None Include="Resources\hpscann6.jpg" />
+    <None Include="Resources\hpscann5.jpg" />
+    <None Include="Resources\hpscann4.jpg" />
+    <None Include="Resources\hpscann3.jpg" />
+    <None Include="Resources\hpscann2.jpg" />
+    <None Include="Resources\hpscann1jpg.jpg" />
     <None Include="Resources\printer.png" />
     <None Include="Resources\hpprinter4.jpg" />
     <None Include="Resources\hpprinter3.jpg" />

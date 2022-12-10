@@ -94,7 +94,7 @@
             this.close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
             this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.close.Image = global::pay_your_premium.Properties.Resources.error;
-            this.close.Location = new System.Drawing.Point(1006, 2);
+            this.close.Location = new System.Drawing.Point(1008, 2);
             this.close.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(29, 28);
@@ -529,6 +529,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(226, 677);
@@ -567,6 +568,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(100)))), ((int)(((byte)(205)))));
             this.button2.Location = new System.Drawing.Point(814, 705);
