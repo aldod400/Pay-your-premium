@@ -37,7 +37,7 @@ namespace pay_your_premium
                 double x = double.Parse(textBox3.Text);
                 if (z > 0)
                 {
-                    if (z > x)
+                    if (z >= x)
                     {
                         z -= double.Parse(textBox3.Text);
                         SqlCommand cm = new SqlCommand("UPDATE contracts SET total_price = '" + z + "'  WHERE [device_description] = '" + comboBox2.Text + "'", cn);
@@ -45,20 +45,26 @@ namespace pay_your_premium
                         comboBox1.Items.Clear();
                         comboBox2.Items.Clear();
                         textBox3.Text = "";
-                        button1.Enabled = true;
                         MessageBox.Show("Payed Successfully");
+                        button1.Enabled = true;
                     }
                     else
                     {
                         MessageBox.Show("The Batch is Bigger Than Total Price");
+
                     }
                     
                 }
                 else
                 {
                     MessageBox.Show("The Premiums has been Finished");
+                    comboBox1.Items.Clear();
+                    comboBox2.Items.Clear();
+                    textBox3.Text = "";
+                    button1.Enabled = true;
                 }
                 
+
             }
             cn.Close();
         }
@@ -77,6 +83,8 @@ namespace pay_your_premium
                     comboBox1.Items.Add(sdr["total_price"].ToString());
                 }
                 button1.Enabled = false;
+                comboBox1.Text = comboBox1.Items[0].ToString();
+                comboBox2.Text = comboBox2.Items[0].ToString();
                 sdr.Close();
             }
             else

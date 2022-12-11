@@ -62,8 +62,7 @@ namespace pay_your_premium
                         preperiod = double.Parse(period.Text);
                         deposit = double.Parse(dpsit.Text);
                         global.price -= deposit;
-                        MessageBox.Show(global.price.ToString());
-                        SqlCommand cm = new SqlCommand("INSERT INTO contracts ([client_name],[national_number],[address],[date_birth],[device_description],[total_price],[deposit],[premium_period],[start_date],[end_date])VALUES ('" + clientname + "', '" + clientid + "', '" + address + "', '" + dayofbirth + "','" + devicedetial + "', '" + totalpri + "', '" + deposit + "', '" + preperiod + "', '" + start + "', '" + end + "')", cn);
+                        SqlCommand cm = new SqlCommand("INSERT INTO contracts ([client_name],[national_number],[address],[date_birth],[device_description],[total_price],[deposit],[premium_period],[start_date],[end_date])VALUES ('" + clientname + "', '" + clientid + "', '" + address + "', '" + dayofbirth + "','" + devicedetial + "', '" + global.price + "', '" + deposit + "', '" + preperiod + "', '" + start + "', '" + end + "')", cn);
 
                         cm.ExecuteNonQuery();
                         

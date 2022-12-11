@@ -310,6 +310,6 @@ namespace pay_your_premium
     class global
     {
         public static double price = 0;
-        public static string desc = null;
+        public static string desc = "";
     }
 }

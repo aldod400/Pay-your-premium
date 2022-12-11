@@ -235,7 +235,7 @@
             this.sidebar.Controls.Add(this.panel8);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
-            this.sidebar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.sidebar.Margin = new System.Windows.Forms.Padding(2);
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(200, 450);
             this.sidebar.TabIndex = 2;
@@ -244,7 +244,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(0, 330);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(4, 31);
             this.panel2.TabIndex = 43;
@@ -259,7 +259,7 @@
             this.watchbtn.Image = global::pay_your_premium.Properties.Resources.img_472253;
             this.watchbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.watchbtn.Location = new System.Drawing.Point(2, 330);
-            this.watchbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.watchbtn.Margin = new System.Windows.Forms.Padding(2);
             this.watchbtn.Name = "watchbtn";
             this.watchbtn.Size = new System.Drawing.Size(194, 31);
             this.watchbtn.TabIndex = 42;
@@ -273,7 +273,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.Location = new System.Drawing.Point(0, 286);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(4, 31);
             this.panel7.TabIndex = 41;
@@ -288,7 +288,7 @@
             this.tabletbtn.Image = global::pay_your_premium.Properties.Resources.tablet;
             this.tabletbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tabletbtn.Location = new System.Drawing.Point(3, 286);
-            this.tabletbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabletbtn.Margin = new System.Windows.Forms.Padding(2);
             this.tabletbtn.Name = "tabletbtn";
             this.tabletbtn.Size = new System.Drawing.Size(194, 31);
             this.tabletbtn.TabIndex = 40;
@@ -301,7 +301,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Location = new System.Drawing.Point(0, 240);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(4, 31);
             this.panel4.TabIndex = 39;
@@ -311,7 +311,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Location = new System.Drawing.Point(0, 191);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(4, 31);
             this.panel3.TabIndex = 36;
@@ -325,7 +325,7 @@
             this.lapbtn.Image = global::pay_your_premium.Properties.Resources.laptop;
             this.lapbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lapbtn.Location = new System.Drawing.Point(4, 240);
-            this.lapbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lapbtn.Margin = new System.Windows.Forms.Padding(2);
             this.lapbtn.Name = "lapbtn";
             this.lapbtn.Size = new System.Drawing.Size(194, 31);
             this.lapbtn.TabIndex = 38;
@@ -343,7 +343,7 @@
             this.phonbtn.Image = global::pay_your_premium.Properties.Resources.mobile_phone1;
             this.phonbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.phonbtn.Location = new System.Drawing.Point(2, 190);
-            this.phonbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.phonbtn.Margin = new System.Windows.Forms.Padding(2);
             this.phonbtn.Name = "phonbtn";
             this.phonbtn.Size = new System.Drawing.Size(196, 31);
             this.phonbtn.TabIndex = 37;
@@ -360,7 +360,7 @@
             this.panel8.Controls.Add(this.label55);
             this.panel8.Controls.Add(this.pictureBox28);
             this.panel8.Location = new System.Drawing.Point(0, 2);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(197, 147);
             this.panel8.TabIndex = 25;
@@ -370,7 +370,7 @@
             this.Back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Back.Image = global::pay_your_premium.Properties.Resources.back;
             this.Back.Location = new System.Drawing.Point(1, 2);
-            this.Back.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Back.Margin = new System.Windows.Forms.Padding(2);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(21, 21);
             this.Back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -382,7 +382,7 @@
             // 
             this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(220)))));
             this.panel27.Location = new System.Drawing.Point(0, 145);
-            this.panel27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel27.Margin = new System.Windows.Forms.Padding(2);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(197, 3);
             this.panel27.TabIndex = 2;
@@ -403,7 +403,7 @@
             // 
             this.pictureBox28.Image = global::pay_your_premium.Properties.Resources.R__7_;
             this.pictureBox28.Location = new System.Drawing.Point(56, 15);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(80, 63);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -416,7 +416,7 @@
             this.pnltop.Controls.Add(this.close);
             this.pnltop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnltop.Location = new System.Drawing.Point(200, 0);
-            this.pnltop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnltop.Margin = new System.Windows.Forms.Padding(2);
             this.pnltop.Name = "pnltop";
             this.pnltop.Size = new System.Drawing.Size(600, 26);
             this.pnltop.TabIndex = 3;
@@ -427,7 +427,7 @@
             this.close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.close.Image = global::pay_your_premium.Properties.Resources.error;
             this.close.Location = new System.Drawing.Point(574, 2);
-            this.close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.close.Margin = new System.Windows.Forms.Padding(2);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(22, 23);
             this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -445,7 +445,7 @@
             this.pnlphone.Controls.Add(this.panel21);
             this.pnlphone.Controls.Add(this.panel25);
             this.pnlphone.Location = new System.Drawing.Point(201, 27);
-            this.pnlphone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlphone.Margin = new System.Windows.Forms.Padding(2);
             this.pnlphone.Name = "pnlphone";
             this.pnlphone.Size = new System.Drawing.Size(600, 423);
             this.pnlphone.TabIndex = 21;
@@ -458,7 +458,7 @@
             this.panel11.Controls.Add(this.label12);
             this.panel11.Controls.Add(this.pictureBox6);
             this.panel11.Location = new System.Drawing.Point(321, 348);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(221, 126);
             this.panel11.TabIndex = 3;
@@ -473,7 +473,7 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Location = new System.Drawing.Point(110, 95);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(77, 24);
             this.button12.TabIndex = 9;
@@ -507,7 +507,7 @@
             // 
             this.pictureBox6.Image = global::pay_your_premium.Properties.Resources.lenovophone7;
             this.pictureBox6.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(73, 124);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -522,7 +522,7 @@
             this.panel12.Controls.Add(this.label14);
             this.panel12.Controls.Add(this.pictureBox7);
             this.panel12.Location = new System.Drawing.Point(41, 348);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(221, 126);
             this.panel12.TabIndex = 2;
@@ -537,7 +537,7 @@
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.ForeColor = System.Drawing.Color.White;
             this.button17.Location = new System.Drawing.Point(110, 95);
-            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button17.Margin = new System.Windows.Forms.Padding(2);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(77, 24);
             this.button17.TabIndex = 9;
@@ -571,7 +571,7 @@
             // 
             this.pictureBox7.Image = global::pay_your_premium.Properties.Resources.lenovophone5;
             this.pictureBox7.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(73, 124);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -586,7 +586,7 @@
             this.panel13.Controls.Add(this.label34);
             this.panel13.Controls.Add(this.pictureBox14);
             this.panel13.Location = new System.Drawing.Point(41, 192);
-            this.panel13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel13.Margin = new System.Windows.Forms.Padding(2);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(221, 126);
             this.panel13.TabIndex = 1;
@@ -601,7 +601,7 @@
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Location = new System.Drawing.Point(106, 95);
-            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(77, 24);
             this.button18.TabIndex = 9;
@@ -635,7 +635,7 @@
             // 
             this.pictureBox14.Image = global::pay_your_premium.Properties.Resources.lenovophone3;
             this.pictureBox14.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(73, 124);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -650,7 +650,7 @@
             this.panel20.Controls.Add(this.label36);
             this.panel20.Controls.Add(this.pictureBox15);
             this.panel20.Location = new System.Drawing.Point(323, 32);
-            this.panel20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel20.Margin = new System.Windows.Forms.Padding(2);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(221, 126);
             this.panel20.TabIndex = 1;
@@ -665,7 +665,7 @@
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.ForeColor = System.Drawing.Color.White;
             this.button19.Location = new System.Drawing.Point(110, 93);
-            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button19.Margin = new System.Windows.Forms.Padding(2);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(77, 24);
             this.button19.TabIndex = 9;
@@ -699,7 +699,7 @@
             // 
             this.pictureBox15.Image = global::pay_your_premium.Properties.Resources.lenovophone2;
             this.pictureBox15.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(73, 124);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -714,7 +714,7 @@
             this.panel21.Controls.Add(this.label38);
             this.panel21.Controls.Add(this.pictureBox19);
             this.panel21.Location = new System.Drawing.Point(323, 192);
-            this.panel21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel21.Margin = new System.Windows.Forms.Padding(2);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(221, 126);
             this.panel21.TabIndex = 1;
@@ -729,7 +729,7 @@
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.ForeColor = System.Drawing.Color.White;
             this.button20.Location = new System.Drawing.Point(112, 93);
-            this.button20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(77, 24);
             this.button20.TabIndex = 9;
@@ -763,7 +763,7 @@
             // 
             this.pictureBox19.Image = global::pay_your_premium.Properties.Resources.lenovophone4;
             this.pictureBox19.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(73, 124);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -778,7 +778,7 @@
             this.panel25.Controls.Add(this.label40);
             this.panel25.Controls.Add(this.pictureBox20);
             this.panel25.Location = new System.Drawing.Point(41, 32);
-            this.panel25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel25.Margin = new System.Windows.Forms.Padding(2);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(221, 126);
             this.panel25.TabIndex = 0;
@@ -793,7 +793,7 @@
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.ForeColor = System.Drawing.Color.White;
             this.button21.Location = new System.Drawing.Point(106, 93);
-            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button21.Margin = new System.Windows.Forms.Padding(2);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(77, 24);
             this.button21.TabIndex = 9;
@@ -827,7 +827,7 @@
             // 
             this.pictureBox20.Image = global::pay_your_premium.Properties.Resources.lenovophone1;
             this.pictureBox20.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(73, 124);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -844,8 +844,8 @@
             this.pnllap.Controls.Add(this.panel10);
             this.pnllap.Controls.Add(this.panel14);
             this.pnllap.Controls.Add(this.panel15);
-            this.pnllap.Location = new System.Drawing.Point(201, 27);
-            this.pnllap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnllap.Location = new System.Drawing.Point(200, 27);
+            this.pnllap.Margin = new System.Windows.Forms.Padding(2);
             this.pnllap.Name = "pnllap";
             this.pnllap.Size = new System.Drawing.Size(600, 423);
             this.pnllap.TabIndex = 22;
@@ -858,7 +858,7 @@
             this.panel16.Controls.Add(this.label18);
             this.panel16.Controls.Add(this.pictureBox9);
             this.panel16.Location = new System.Drawing.Point(44, 509);
-            this.panel16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel16.Margin = new System.Windows.Forms.Padding(2);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(221, 126);
             this.panel16.TabIndex = 4;
@@ -872,7 +872,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.White;
             this.button7.Location = new System.Drawing.Point(110, 95);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(77, 24);
             this.button7.TabIndex = 9;
@@ -905,7 +905,7 @@
             // 
             this.pictureBox9.Image = global::pay_your_premium.Properties.Resources.Lenovolap7;
             this.pictureBox9.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(73, 124);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -920,7 +920,7 @@
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Location = new System.Drawing.Point(324, 346);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(221, 126);
             this.panel5.TabIndex = 3;
@@ -934,7 +934,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(110, 95);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 24);
             this.button1.TabIndex = 9;
@@ -967,7 +967,7 @@
             // 
             this.pictureBox1.Image = global::pay_your_premium.Properties.Resources.lenovolap6;
             this.pictureBox1.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(73, 124);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -982,7 +982,7 @@
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.pictureBox2);
             this.panel6.Location = new System.Drawing.Point(44, 346);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(221, 126);
             this.panel6.TabIndex = 2;
@@ -996,7 +996,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(110, 95);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(77, 24);
             this.button2.TabIndex = 9;
@@ -1029,7 +1029,7 @@
             // 
             this.pictureBox2.Image = global::pay_your_premium.Properties.Resources.lenovolap5;
             this.pictureBox2.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(73, 124);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1044,7 +1044,7 @@
             this.panel9.Controls.Add(this.label6);
             this.panel9.Controls.Add(this.pictureBox3);
             this.panel9.Location = new System.Drawing.Point(44, 190);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(221, 126);
             this.panel9.TabIndex = 1;
@@ -1058,7 +1058,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(106, 95);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(77, 24);
             this.button3.TabIndex = 9;
@@ -1091,7 +1091,7 @@
             // 
             this.pictureBox3.Image = global::pay_your_premium.Properties.Resources.lenovolap2;
             this.pictureBox3.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(73, 124);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1106,7 +1106,7 @@
             this.panel10.Controls.Add(this.label8);
             this.panel10.Controls.Add(this.pictureBox4);
             this.panel10.Location = new System.Drawing.Point(326, 31);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(221, 126);
             this.panel10.TabIndex = 1;
@@ -1120,7 +1120,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(110, 93);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(77, 24);
             this.button4.TabIndex = 9;
@@ -1154,7 +1154,7 @@
             // 
             this.pictureBox4.Image = global::pay_your_premium.Properties.Resources.lenovolap1;
             this.pictureBox4.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(73, 124);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1169,7 +1169,7 @@
             this.panel14.Controls.Add(this.label10);
             this.panel14.Controls.Add(this.pictureBox5);
             this.panel14.Location = new System.Drawing.Point(326, 190);
-            this.panel14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel14.Margin = new System.Windows.Forms.Padding(2);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(221, 126);
             this.panel14.TabIndex = 1;
@@ -1183,7 +1183,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(112, 93);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(77, 24);
             this.button5.TabIndex = 9;
@@ -1216,7 +1216,7 @@
             // 
             this.pictureBox5.Image = global::pay_your_premium.Properties.Resources.lenovolap4;
             this.pictureBox5.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(73, 124);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1231,7 +1231,7 @@
             this.panel15.Controls.Add(this.label16);
             this.panel15.Controls.Add(this.pictureBox8);
             this.panel15.Location = new System.Drawing.Point(44, 31);
-            this.panel15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel15.Margin = new System.Windows.Forms.Padding(2);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(221, 126);
             this.panel15.TabIndex = 0;
@@ -1245,7 +1245,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(106, 93);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(77, 24);
             this.button6.TabIndex = 9;
@@ -1279,7 +1279,7 @@
             // 
             this.pictureBox8.Image = global::pay_your_premium.Properties.Resources.lenovolap;
             this.pictureBox8.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(73, 124);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1295,7 +1295,7 @@
             this.pnltaplet.Controls.Add(this.panel24);
             this.pnltaplet.Controls.Add(this.panel26);
             this.pnltaplet.Location = new System.Drawing.Point(201, 27);
-            this.pnltaplet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnltaplet.Margin = new System.Windows.Forms.Padding(2);
             this.pnltaplet.Name = "pnltaplet";
             this.pnltaplet.Size = new System.Drawing.Size(600, 423);
             this.pnltaplet.TabIndex = 23;
@@ -1308,7 +1308,7 @@
             this.panel19.Controls.Add(this.label24);
             this.panel19.Controls.Add(this.pictureBox12);
             this.panel19.Location = new System.Drawing.Point(44, 348);
-            this.panel19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel19.Margin = new System.Windows.Forms.Padding(2);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(221, 126);
             this.panel19.TabIndex = 2;
@@ -1322,7 +1322,7 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Location = new System.Drawing.Point(110, 95);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(77, 24);
             this.button10.TabIndex = 9;
@@ -1355,7 +1355,7 @@
             // 
             this.pictureBox12.Image = global::pay_your_premium.Properties.Resources.lenovotap5;
             this.pictureBox12.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(73, 124);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1370,7 +1370,7 @@
             this.panel22.Controls.Add(this.label26);
             this.panel22.Controls.Add(this.pictureBox13);
             this.panel22.Location = new System.Drawing.Point(44, 192);
-            this.panel22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel22.Margin = new System.Windows.Forms.Padding(2);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(221, 126);
             this.panel22.TabIndex = 1;
@@ -1384,7 +1384,7 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.ForeColor = System.Drawing.Color.White;
             this.button11.Location = new System.Drawing.Point(106, 95);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(77, 24);
             this.button11.TabIndex = 9;
@@ -1418,7 +1418,7 @@
             // 
             this.pictureBox13.Image = global::pay_your_premium.Properties.Resources.lenovotap2;
             this.pictureBox13.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(73, 124);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1433,7 +1433,7 @@
             this.panel23.Controls.Add(this.label28);
             this.panel23.Controls.Add(this.pictureBox16);
             this.panel23.Location = new System.Drawing.Point(326, 32);
-            this.panel23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel23.Margin = new System.Windows.Forms.Padding(2);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(221, 126);
             this.panel23.TabIndex = 1;
@@ -1447,7 +1447,7 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.ForeColor = System.Drawing.Color.White;
             this.button13.Location = new System.Drawing.Point(110, 93);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(77, 24);
             this.button13.TabIndex = 9;
@@ -1480,7 +1480,7 @@
             // 
             this.pictureBox16.Image = global::pay_your_premium.Properties.Resources.lenovotap11;
             this.pictureBox16.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(73, 124);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1495,7 +1495,7 @@
             this.panel24.Controls.Add(this.label30);
             this.panel24.Controls.Add(this.pictureBox17);
             this.panel24.Location = new System.Drawing.Point(326, 192);
-            this.panel24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel24.Margin = new System.Windows.Forms.Padding(2);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(221, 126);
             this.panel24.TabIndex = 1;
@@ -1509,7 +1509,7 @@
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Location = new System.Drawing.Point(112, 93);
-            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(77, 24);
             this.button14.TabIndex = 9;
@@ -1542,7 +1542,7 @@
             // 
             this.pictureBox17.Image = global::pay_your_premium.Properties.Resources.lenovotap4;
             this.pictureBox17.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(73, 124);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1557,7 +1557,7 @@
             this.panel26.Controls.Add(this.label32);
             this.panel26.Controls.Add(this.pictureBox18);
             this.panel26.Location = new System.Drawing.Point(44, 32);
-            this.panel26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel26.Margin = new System.Windows.Forms.Padding(2);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(221, 126);
             this.panel26.TabIndex = 0;
@@ -1571,7 +1571,7 @@
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.ForeColor = System.Drawing.Color.White;
             this.button15.Location = new System.Drawing.Point(106, 93);
-            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(77, 24);
             this.button15.TabIndex = 9;
@@ -1605,7 +1605,7 @@
             // 
             this.pictureBox18.Image = global::pay_your_premium.Properties.Resources.lenovotap1;
             this.pictureBox18.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(73, 124);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1621,7 +1621,7 @@
             this.pnlwatch.Controls.Add(this.panel29);
             this.pnlwatch.Controls.Add(this.panel30);
             this.pnlwatch.Location = new System.Drawing.Point(201, 27);
-            this.pnlwatch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlwatch.Margin = new System.Windows.Forms.Padding(2);
             this.pnlwatch.Name = "pnlwatch";
             this.pnlwatch.Size = new System.Drawing.Size(600, 423);
             this.pnlwatch.TabIndex = 24;
@@ -1634,7 +1634,7 @@
             this.panel17.Controls.Add(this.label20);
             this.panel17.Controls.Add(this.pictureBox10);
             this.panel17.Location = new System.Drawing.Point(44, 348);
-            this.panel17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel17.Margin = new System.Windows.Forms.Padding(2);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(221, 126);
             this.panel17.TabIndex = 2;
@@ -1648,7 +1648,7 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.Location = new System.Drawing.Point(110, 95);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(77, 24);
             this.button8.TabIndex = 9;
@@ -1681,7 +1681,7 @@
             // 
             this.pictureBox10.Image = global::pay_your_premium.Properties.Resources.lenovowatch5;
             this.pictureBox10.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(73, 124);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1696,7 +1696,7 @@
             this.panel18.Controls.Add(this.label22);
             this.panel18.Controls.Add(this.pictureBox11);
             this.panel18.Location = new System.Drawing.Point(44, 192);
-            this.panel18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel18.Margin = new System.Windows.Forms.Padding(2);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(221, 126);
             this.panel18.TabIndex = 1;
@@ -1710,7 +1710,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Location = new System.Drawing.Point(106, 95);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(77, 24);
             this.button9.TabIndex = 9;
@@ -1743,7 +1743,7 @@
             // 
             this.pictureBox11.Image = global::pay_your_premium.Properties.Resources.lenovowatch3;
             this.pictureBox11.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(73, 124);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1758,7 +1758,7 @@
             this.panel28.Controls.Add(this.label42);
             this.panel28.Controls.Add(this.pictureBox21);
             this.panel28.Location = new System.Drawing.Point(326, 32);
-            this.panel28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel28.Margin = new System.Windows.Forms.Padding(2);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(221, 126);
             this.panel28.TabIndex = 1;
@@ -1772,7 +1772,7 @@
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Location = new System.Drawing.Point(110, 93);
-            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(77, 24);
             this.button16.TabIndex = 9;
@@ -1805,7 +1805,7 @@
             // 
             this.pictureBox21.Image = global::pay_your_premium.Properties.Resources.Lenovotwatch2;
             this.pictureBox21.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(73, 124);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1820,7 +1820,7 @@
             this.panel29.Controls.Add(this.label44);
             this.panel29.Controls.Add(this.pictureBox22);
             this.panel29.Location = new System.Drawing.Point(326, 192);
-            this.panel29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel29.Margin = new System.Windows.Forms.Padding(2);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(221, 126);
             this.panel29.TabIndex = 1;
@@ -1834,7 +1834,7 @@
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.ForeColor = System.Drawing.Color.White;
             this.button22.Location = new System.Drawing.Point(112, 93);
-            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button22.Margin = new System.Windows.Forms.Padding(2);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(77, 24);
             this.button22.TabIndex = 9;
@@ -1867,7 +1867,7 @@
             // 
             this.pictureBox22.Image = global::pay_your_premium.Properties.Resources.lenovowatch4;
             this.pictureBox22.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(73, 124);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1882,7 +1882,7 @@
             this.panel30.Controls.Add(this.label46);
             this.panel30.Controls.Add(this.pictureBox23);
             this.panel30.Location = new System.Drawing.Point(44, 32);
-            this.panel30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel30.Margin = new System.Windows.Forms.Padding(2);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(221, 126);
             this.panel30.TabIndex = 0;
@@ -1896,7 +1896,7 @@
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.ForeColor = System.Drawing.Color.White;
             this.button23.Location = new System.Drawing.Point(106, 93);
-            this.button23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button23.Margin = new System.Windows.Forms.Padding(2);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(77, 24);
             this.button23.TabIndex = 9;
@@ -1929,7 +1929,7 @@
             // 
             this.pictureBox23.Image = global::pay_your_premium.Properties.Resources.lenovowatch1;
             this.pictureBox23.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(73, 124);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1948,7 +1948,7 @@
             this.Controls.Add(this.pnltop);
             this.Controls.Add(this.sidebar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "LENOVO";
             this.Text = "Form14";
             this.sidebar.ResumeLayout(false);
