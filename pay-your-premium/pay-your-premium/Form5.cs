@@ -10,13 +10,15 @@ using System.Windows.Forms;
 
 namespace pay_your_premium
 {
+   
     public partial class LG : Form
     {
         public LG()
         {
             InitializeComponent();
-        }
 
+        }
+        
         private void close_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -106,10 +108,10 @@ namespace pay_your_premium
             pnlvacuum.Visible = false;
             pnlproj.Visible = true;
         }
-        double price = 0;
+        
         private void button6_Click(object sender, EventArgs e)
         {
-            price += 589.99;
+            global.price += 589.99;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -117,7 +119,7 @@ namespace pay_your_premium
 
         private void button7_Click(object sender, EventArgs e)
         {
-            price += 999.99;
+            global.price += 999.99;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -125,7 +127,7 @@ namespace pay_your_premium
 
         private void button9_Click(object sender, EventArgs e)
         {
-            price += 999.00;
+            global.price += 999.00;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -133,7 +135,7 @@ namespace pay_your_premium
 
         private void button8_Click(object sender, EventArgs e)
         {
-            price += 799.00;
+            global.price += 799.00;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -141,7 +143,7 @@ namespace pay_your_premium
 
         private void button10_Click(object sender, EventArgs e)
         {
-            price += 1.990;
+            global.price += 1.990;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -153,5 +155,161 @@ namespace pay_your_premium
             f2.Show();
             this.Hide();
         }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            global.price += 1999.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            global.price += 999.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            global.price += 1239.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            global.price += 799.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            global.price += 1990;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            global.price += 1029.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            global.price += 1000.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            global.price += 999.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            global.price += 1909.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            global.price += 1239.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            global.price += 899.95;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            global.price += 1399.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            global.price += 2199.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            global.price += 939.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            global.price += 527.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            global.price += 299.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            global.price = 639.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            global.price = 110.95;
+            global.desc = label38.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void LG_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+
+    class global
+    {
+        public static double price = 0;
+        public static string desc = null;
     }
 }

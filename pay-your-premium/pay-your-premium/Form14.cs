@@ -89,5 +89,69 @@ namespace pay_your_premium
             f2.Show();
             this.Hide();
         }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            global.price = 900.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            global.price = 5550.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            global.price = 1110.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            global.price = 379.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            global.price = 1990.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            global.price = 905.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            global.price = 44999.00;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            global.price = 50959.99;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
     }
 }
