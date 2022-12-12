@@ -38,7 +38,9 @@ namespace pay_your_premium
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Clients f8 = new Clients();
+            f8.Show();
+            this.Hide();
         }
     }
 }
