@@ -31,21 +31,22 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clients));
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.payyourpremiumDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pay_your_premiumDataSet = new pay_your_premium.pay_your_premiumDataSet();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.close = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
-            this.pay_your_premiumDataSet = new pay_your_premium.pay_your_premiumDataSet();
-            this.payyourpremiumDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pay_your_premiumDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.payyourpremiumDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pay_your_premiumDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -101,7 +102,7 @@
             this.dataGridView1.DataSource = this.payyourpremiumDataSetBindingSource;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.Location = new System.Drawing.Point(7, 26);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,6 +113,16 @@
             this.dataGridView1.Size = new System.Drawing.Size(1252, 535);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // payyourpremiumDataSetBindingSource
+            // 
+            this.payyourpremiumDataSetBindingSource.DataSource = this.pay_your_premiumDataSet;
+            this.payyourpremiumDataSetBindingSource.Position = 0;
+            // 
+            // pay_your_premiumDataSet
+            // 
+            this.pay_your_premiumDataSet.DataSetName = "pay_your_premiumDataSet";
+            this.pay_your_premiumDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // textBox1
             // 
@@ -151,6 +162,7 @@
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.BackgroundImage = global::pay_your_premium.Properties.Resources.img_194915;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(55)))), ((int)(((byte)(147)))));
@@ -161,16 +173,6 @@
             this.button3.TabIndex = 38;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
-            // 
-            // pay_your_premiumDataSet
-            // 
-            this.pay_your_premiumDataSet.DataSetName = "pay_your_premiumDataSet";
-            this.pay_your_premiumDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // payyourpremiumDataSetBindingSource
-            // 
-            this.payyourpremiumDataSetBindingSource.DataSource = this.pay_your_premiumDataSet;
-            this.payyourpremiumDataSetBindingSource.Position = 0;
             // 
             // Clients
             // 
@@ -187,15 +189,17 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Clients";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form10";
             this.Load += new System.EventHandler(this.Clients_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pay_your_premiumDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.payyourpremiumDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pay_your_premiumDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
