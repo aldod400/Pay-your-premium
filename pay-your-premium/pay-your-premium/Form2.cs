@@ -62,5 +62,13 @@ namespace pay_your_premium
             f15.Show();
             this.Hide();
         }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            Main f8 = new Main();
+            f8.Show();
+            this.Hide();
+       
+        }
     }
 }

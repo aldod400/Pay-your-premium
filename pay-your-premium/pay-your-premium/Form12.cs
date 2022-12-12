@@ -126,5 +126,12 @@ namespace pay_your_premium
             price.Text = global.price.ToString();
             descri.Text = global.desc.ToString();
         }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            Main f8 = new Main();
+            f8.Show();
+            this.Hide();
+        }
     }
 }

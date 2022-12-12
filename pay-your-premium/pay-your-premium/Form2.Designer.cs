@@ -71,6 +71,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.btnLG = new System.Windows.Forms.Button();
+            this.Back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
             this.sharp.SuspendLayout();
             this.sony.SuspendLayout();
@@ -79,12 +80,13 @@
             this.panel4.SuspendLayout();
             this.sam.SuspendLayout();
             this.LG.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Back)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Location = new System.Drawing.Point(12, 69);
+            this.panel3.Location = new System.Drawing.Point(46, 64);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(480, 4);
@@ -95,7 +97,7 @@
             this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(138)))));
             this.label13.Font = new System.Drawing.Font("Monotype Corsiva", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(-1, 9);
+            this.label13.Location = new System.Drawing.Point(33, 4);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(377, 55);
             this.label13.TabIndex = 52;
@@ -574,6 +576,20 @@
             this.btnLG.UseVisualStyleBackColor = false;
             this.btnLG.Click += new System.EventHandler(this.btnLG_Click);
             // 
+            // Back
+            // 
+            this.Back.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(44)))), ((int)(((byte)(137)))));
+            this.Back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back.Image = global::pay_your_premium.Properties.Resources.back;
+            this.Back.Location = new System.Drawing.Point(3, 4);
+            this.Back.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(35, 28);
+            this.Back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Back.TabIndex = 54;
+            this.Back.TabStop = false;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
             // Brands
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -582,6 +598,7 @@
             this.BackgroundImage = global::pay_your_premium.Properties.Resources.R__11_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.Back);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.close);
@@ -612,6 +629,7 @@
             this.panel4.ResumeLayout(false);
             this.sam.ResumeLayout(false);
             this.LG.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Back)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -660,5 +678,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLG;
+        private System.Windows.Forms.PictureBox Back;
     }
 }

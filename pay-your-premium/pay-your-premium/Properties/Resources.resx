@@ -139,9 +139,6 @@
   <data name="lenovowatch3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovowatch3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R (8)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R (8).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Sonyspeak3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sonyspeak3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,6 +157,9 @@
   <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Series6silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Series6silver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sonypro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonypro2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +177,9 @@
   </data>
   <data name="sonytv41" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonytv41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sonypro7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sonypro7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img_194915" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img_194915.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,9 +202,6 @@
   <data name="gnm-755_hw-01_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gnm-755_hw-01_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="samphone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\samphone1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="lenovotap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovotap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -217,9 +217,6 @@
   <data name="GR-Y331SLZB-2-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GR-Y331SLZB-2-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="samtv3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\samtv3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sonyspeak5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonyspeak5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -234,6 +231,9 @@
   </data>
   <data name="sonypro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonypro3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="projector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\projector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lenovophone4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovophone4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -277,14 +277,8 @@
   <data name="R (11)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (11)3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sonyspeak4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sonyspeak4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="R (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OIP (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (14).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sonyfan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonyfan2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,8 +298,8 @@
   <data name="animated-devices2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\animated-devices2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hpcom3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hpcom3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sonytv7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonytv7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -319,8 +313,8 @@
   <data name="R (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (6).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="samwatch3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\samwatch3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,14 +331,8 @@
   <data name="online-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\online-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="samwatch5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\samwatch5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="OIP (15)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (15).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lenovophone5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lenovophone5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="samtv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\samtv1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,8 +340,8 @@
   <data name="R (10)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (10).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OIP (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lenovophone5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lenovophone5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="samtv" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\samtv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,17 +379,23 @@
   <data name="sonytv6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonytv6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OIP (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OIP (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="scanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mobile-phone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mobile-phone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lenovophone2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lenovophone2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sonyfan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonyfan1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="animated-devices11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\animated-devices11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refrigerator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrigerator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="samcom5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\samcom5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -414,6 +408,9 @@
   </data>
   <data name="img_4722531" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img_4722531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vacuum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vacuum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -448,9 +445,6 @@
   <data name="hpprint1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hpprint1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="samcom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\samcom2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hpprinter2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hpprinter2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -466,11 +460,14 @@
   <data name="sonytv43" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonytv4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="laptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="R (8)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (8)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="laptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\laptop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OIP (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hpcom7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hpcom7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -481,11 +478,14 @@
   <data name="lenovolap4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovolap4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="animated-devices12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\animated-devices12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hpscann1jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hpscann1jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lenovo-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lenovo-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Apple-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apple-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="R (5)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (5)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -544,6 +544,9 @@
   <data name="apple_mtur2ll_a_watch_series_4_gps_1434898" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apple_mtur2ll_a_watch_series_4_gps_1434898.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lenovo-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lenovo-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lenovolap5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovolap5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -565,8 +568,8 @@
   <data name="samphone7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\samphone7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lenovophone2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lenovophone2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R (8)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (8).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hpcom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hpcom2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -574,14 +577,14 @@
   <data name="R (11)4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (11)2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hpcom8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hpcom8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="samwatch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\samwatch4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vacuum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vacuum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hpcom8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hpcom8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (9).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -598,8 +601,8 @@
   <data name="sonypro6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sonypro6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Series6silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Series6silver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="samphone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\samphone1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Apple-iPhone-12-Pro-b-427x5461" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Apple-iPhone-12-Pro-b-427x5461.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -610,8 +613,8 @@
   <data name="R (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sonypro7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sonypro7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="animated-devices12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated-devices12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP (19)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (19).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -622,8 +625,8 @@
   <data name="OIP (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (17).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sonypro5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sonypro5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ha706-000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ha706-000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -631,8 +634,8 @@
   <data name="error1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\error1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="samcom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\samcom2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hpscann3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hpscann3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -646,20 +649,20 @@
   <data name="lg-gl-n292rdsy-260-l" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lg-gl-n292rdsy-260-l.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="scanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sonypro5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sonypro5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="projector" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\projector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="samwatch5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\samwatch5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Apple-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Apple-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="animated-devices11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animated-devices11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="refrigerator" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refrigerator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OIP (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (14).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sonyspeak4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sonyspeak4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -667,8 +670,8 @@
   <data name="OIP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hpscann1jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hpscann1jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OIP (13)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OIP (13).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lenovolap2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovolap2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -676,10 +679,10 @@
   <data name="lenovophone3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lenovophone3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hpcom3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hpcom3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="samtv3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\samtv3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5590033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5590033.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

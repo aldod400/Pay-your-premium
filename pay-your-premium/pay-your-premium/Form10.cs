@@ -110,5 +110,10 @@ namespace pay_your_premium
         {
             data();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

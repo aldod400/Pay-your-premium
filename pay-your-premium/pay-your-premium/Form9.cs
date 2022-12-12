@@ -47,7 +47,7 @@ namespace pay_your_premium
                         comboBox2.Items.Clear();
                         textBox3.Text = "";
                         MessageBox.Show("Payed Successfully");
-                        button1.Enabled = true;
+                        Search.Enabled = true;
                     }
                     else
                     {
@@ -62,7 +62,7 @@ namespace pay_your_premium
                     comboBox1.Items.Clear();
                     comboBox2.Items.Clear();
                     textBox3.Text = "";
-                    button1.Enabled = true;
+                    Search.Enabled = true;
                 }
                 
 
@@ -83,7 +83,7 @@ namespace pay_your_premium
                     comboBox2.Items.Add(sdr["device_description"].ToString());
                     comboBox1.Items.Add(sdr["total_price"].ToString());
                 }
-                button1.Enabled = false;
+                Search.Enabled = false;
                 comboBox1.Text = comboBox1.Items[0].ToString();
                 comboBox2.Text = comboBox2.Items[0].ToString();
                 sdr.Close();
