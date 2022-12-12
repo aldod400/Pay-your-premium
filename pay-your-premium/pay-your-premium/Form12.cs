@@ -61,13 +61,40 @@ namespace pay_your_premium
                         totalpri = global.price;
                         preperiod = double.Parse(period.Text);
                         deposit = double.Parse(dpsit.Text);
-                        global.price -= deposit;
-                        SqlCommand cm = new SqlCommand("INSERT INTO contracts ([client_name],[national_number],[address],[date_birth],[device_description],[total_price],[deposit],[premium_period],[start_date],[end_date])VALUES ('" + clientname + "', '" + clientid + "', '" + address + "', '" + dayofbirth + "','" + devicedetial + "', '" + global.price + "', '" + deposit + "', '" + preperiod + "', '" + start + "', '" + end + "')", cn);
+                        if(global.price >= deposit)
+                        {
+                            global.price -= deposit;
 
-                        cm.ExecuteNonQuery();
-                        
-                        richTextBox1.Text = string.Format("                               Premium Contract                               \n\n\n\n This  contract  encloses  terms  and  conditions  with  which  a    contractor : " + compname + "  will  offer  services  to " + "\n\n - Client :  " + clientname + " ,   \n\n - Client Nation Number :" + clientid.ToString() + "\n\n - Adreess : " + address + "\n\n - Day Of Birth : " + dayofbirth + "\n\n\n The contractor shall: \n\n - begin work on " + start + "\n\n - Complete on  " + end + " \n\n\n The Product Details : \n " + devicedetial + " \n\n - The Total Price : " + totalpri + "\n\n - Depodit : " + deposit + "\n\n - Premiumm Period : " + preperiod);
+                            DialogResult d = MessageBox.Show("Are You Sure?", "Save Contract", MessageBoxButtons.YesNo);
+
+                            if (d == DialogResult.Yes)
+                            {
+
+                                SqlCommand cm = new SqlCommand("INSERT INTO contracts ([client_name],[national_number],[address],[date_birth],[device_description],[total_price],[deposit],[premium_period],[start_date],[end_date])VALUES ('" + clientname + "', '" + clientid + "', '" + address + "', '" + dayofbirth + "','" + devicedetial + "', '" + global.price + "', '" + deposit + "', '" + preperiod + "', '" + start + "', '" + end + "')", cn);
+
+                                cm.ExecuteNonQuery();
+
+                                richTextBox1.Text = string.Format("                               Premium Contract                               \n\n\n\n This  contract  encloses  terms  and  conditions  with  which  a    contractor : " + compname + "  will  offer  services  to " + "\n\n - Client :  " + clientname + " ,   \n\n - Client Nation Number :" + clientid.ToString() + "\n\n - Adreess : " + address + "\n\n - Day Of Birth : " + dayofbirth + "\n\n\n The contractor shall: \n\n - begin work on " + start + "\n\n - Complete on  " + end + " \n\n\n The Product Details : \n " + devicedetial + " \n\n - The Total Price : " + totalpri + "\n\n - Depodit : " + deposit + "\n\n - Premiumm Period : " + preperiod);
+                                client.Text = "";
+                                Nationnum.Text = "";
+                                maskedTextBox1.Text = "";
+                                Address.Text = "";
+                                dateTimePicker1.Text = "";
+                                dateTimePicker2.Text = "";
+                                comnam.Text = "";
+                                descri.Text = "";
+                                price.Text = "";
+                                period.Text = "";
+                                dpsit.Text = "";
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Incorrect Deposit");
+                        }
+
                     }
+
                     else
                     {
                         MessageBox.Show("Please Enter The Number");
