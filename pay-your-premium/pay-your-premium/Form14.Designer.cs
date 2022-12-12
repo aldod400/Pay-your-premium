@@ -878,6 +878,7 @@
             this.button7.TabIndex = 9;
             this.button7.Text = " ";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label17
             // 
@@ -940,6 +941,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = " ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -1002,6 +1004,7 @@
             this.button2.TabIndex = 9;
             this.button2.Text = " ";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -1064,6 +1067,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = " ";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label5
             // 
@@ -1189,6 +1193,7 @@
             this.button5.TabIndex = 9;
             this.button5.Text = " ";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label9
             // 
@@ -1328,6 +1333,7 @@
             this.button10.TabIndex = 9;
             this.button10.Text = " ";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // label23
             // 
@@ -1390,6 +1396,7 @@
             this.button11.TabIndex = 9;
             this.button11.Text = " ";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label25
             // 
@@ -1453,6 +1460,7 @@
             this.button13.TabIndex = 9;
             this.button13.Text = " ";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label27
             // 
@@ -1515,6 +1523,7 @@
             this.button14.TabIndex = 9;
             this.button14.Text = " ";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // label29
             // 
@@ -1577,6 +1586,7 @@
             this.button15.TabIndex = 9;
             this.button15.Text = " ";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // label31
             // 
@@ -1654,6 +1664,7 @@
             this.button8.TabIndex = 9;
             this.button8.Text = " ";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label19
             // 
@@ -1716,6 +1727,7 @@
             this.button9.TabIndex = 9;
             this.button9.Text = " ";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // label21
             // 
@@ -1778,6 +1790,7 @@
             this.button16.TabIndex = 9;
             this.button16.Text = " ";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // label41
             // 
@@ -1840,6 +1853,7 @@
             this.button22.TabIndex = 9;
             this.button22.Text = " ";
             this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // label43
             // 
@@ -1902,6 +1916,7 @@
             this.button23.TabIndex = 9;
             this.button23.Text = " ";
             this.button23.UseVisualStyleBackColor = false;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // label45
             // 
@@ -1941,9 +1956,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pnllap);
-            this.Controls.Add(this.pnlphone);
             this.Controls.Add(this.pnltaplet);
+            this.Controls.Add(this.pnlphone);
+            this.Controls.Add(this.pnllap);
             this.Controls.Add(this.pnlwatch);
             this.Controls.Add(this.pnltop);
             this.Controls.Add(this.sidebar);

@@ -122,6 +122,11 @@
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.pnlwatch = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.button26 = new System.Windows.Forms.Button();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.button17 = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -167,11 +172,6 @@
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.button26 = new System.Windows.Forms.Button();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.panel35 = new System.Windows.Forms.Panel();
             this.button27 = new System.Windows.Forms.Button();
             this.label51 = new System.Windows.Forms.Label();
@@ -225,6 +225,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.pnlwatch.SuspendLayout();
             this.panel16.SuspendLayout();
+            this.panel34.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -243,8 +245,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.panel33.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            this.panel34.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.panel35.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             this.panel36.SuspendLayout();
@@ -1438,6 +1438,66 @@
             this.panel16.Size = new System.Drawing.Size(221, 126);
             this.panel16.TabIndex = 2;
             // 
+            // panel34
+            // 
+            this.panel34.BackColor = System.Drawing.Color.White;
+            this.panel34.Controls.Add(this.button26);
+            this.panel34.Controls.Add(this.label49);
+            this.panel34.Controls.Add(this.label50);
+            this.panel34.Controls.Add(this.pictureBox25);
+            this.panel34.Location = new System.Drawing.Point(0, 0);
+            this.panel34.Margin = new System.Windows.Forms.Padding(2);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(221, 126);
+            this.panel34.TabIndex = 1;
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.ForeColor = System.Drawing.Color.White;
+            this.button26.Location = new System.Drawing.Point(75, 99);
+            this.button26.Margin = new System.Windows.Forms.Padding(2);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(146, 24);
+            this.button26.TabIndex = 6;
+            this.button26.Text = "Buy";
+            this.button26.UseVisualStyleBackColor = false;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
+            // 
+            // label49
+            // 
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
+            this.label49.Location = new System.Drawing.Point(107, 11);
+            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(74, 23);
+            this.label49.TabIndex = 5;
+            this.label49.Text = "$769.99";
+            // 
+            // label50
+            // 
+            this.label50.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.DimGray;
+            this.label50.Location = new System.Drawing.Point(84, 40);
+            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(116, 61);
+            this.label50.TabIndex = 4;
+            this.label50.Text = "Like New Apple iPhone 12 Pro 128GB 256GB 512GB All Colors";
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = global::pay_your_premium.Properties.Resources.Apple_iPhone_12_Pro_b_427x5461;
+            this.pictureBox25.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(73, 124);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 0;
+            this.pictureBox25.TabStop = false;
+            // 
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.White;
@@ -1666,6 +1726,7 @@
             this.label38.TabIndex = 4;
             this.label38.Text = "Apple Watch Series 4 (GPS + Cellular, 40mm, Gold Stainless Steel, Stone Sport Ban" +
     "d)";
+            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // pictureBox11
             // 
@@ -1995,66 +2056,6 @@
             this.pictureBox23.TabIndex = 0;
             this.pictureBox23.TabStop = false;
             // 
-            // panel34
-            // 
-            this.panel34.BackColor = System.Drawing.Color.White;
-            this.panel34.Controls.Add(this.button26);
-            this.panel34.Controls.Add(this.label49);
-            this.panel34.Controls.Add(this.label50);
-            this.panel34.Controls.Add(this.pictureBox25);
-            this.panel34.Location = new System.Drawing.Point(0, 0);
-            this.panel34.Margin = new System.Windows.Forms.Padding(2);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(221, 126);
-            this.panel34.TabIndex = 1;
-            // 
-            // button26
-            // 
-            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.ForeColor = System.Drawing.Color.White;
-            this.button26.Location = new System.Drawing.Point(75, 99);
-            this.button26.Margin = new System.Windows.Forms.Padding(2);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(146, 24);
-            this.button26.TabIndex = 6;
-            this.button26.Text = "Buy";
-            this.button26.UseVisualStyleBackColor = false;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
-            // 
-            // label49
-            // 
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(101)))), ((int)(((byte)(199)))));
-            this.label49.Location = new System.Drawing.Point(107, 11);
-            this.label49.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(74, 23);
-            this.label49.TabIndex = 5;
-            this.label49.Text = "$769.99";
-            // 
-            // label50
-            // 
-            this.label50.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.DimGray;
-            this.label50.Location = new System.Drawing.Point(84, 40);
-            this.label50.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(116, 61);
-            this.label50.TabIndex = 4;
-            this.label50.Text = "Like New Apple iPhone 12 Pro 128GB 256GB 512GB All Colors";
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Image = global::pay_your_premium.Properties.Resources.Apple_iPhone_12_Pro_b_427x5461;
-            this.pictureBox25.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(73, 124);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 0;
-            this.pictureBox25.TabStop = false;
-            // 
             // panel35
             // 
             this.panel35.BackColor = System.Drawing.Color.White;
@@ -2232,6 +2233,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.pnlwatch.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
+            this.panel34.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel17.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -2250,8 +2253,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             this.panel33.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            this.panel34.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.panel35.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             this.panel36.ResumeLayout(false);

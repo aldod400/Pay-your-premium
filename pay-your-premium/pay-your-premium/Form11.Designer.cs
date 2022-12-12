@@ -480,6 +480,7 @@
             this.button2.TabIndex = 9;
             this.button2.Text = " ";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
@@ -1333,6 +1334,7 @@
             this.button15.TabIndex = 9;
             this.button15.Text = " ";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // label29
             // 
@@ -1395,6 +1397,7 @@
             this.button20.TabIndex = 9;
             this.button20.Text = " ";
             this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // label39
             // 
@@ -1457,6 +1460,7 @@
             this.button21.TabIndex = 9;
             this.button21.Text = " ";
             this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // label41
             // 
@@ -1519,6 +1523,7 @@
             this.button22.TabIndex = 9;
             this.button22.Text = " ";
             this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // label43
             // 
@@ -1581,6 +1586,7 @@
             this.button23.TabIndex = 9;
             this.button23.Text = " ";
             this.button23.UseVisualStyleBackColor = false;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // label45
             // 
@@ -1950,8 +1956,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pnlphone);
-            this.Controls.Add(this.pnlwatch);
             this.Controls.Add(this.pnlcom);
+            this.Controls.Add(this.pnlwatch);
             this.Controls.Add(this.pnltv);
             this.Controls.Add(this.pnltop);
             this.Controls.Add(this.sidebar);

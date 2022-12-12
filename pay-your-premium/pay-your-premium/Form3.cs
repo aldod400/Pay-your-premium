@@ -75,6 +75,7 @@ namespace pay_your_premium
         private void button1_Click(object sender, EventArgs e)
         {
             global.price = 589.99;
+            global.desc = label1.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -83,6 +84,7 @@ namespace pay_your_premium
         private void button2_Click(object sender, EventArgs e)
         {
             global.price = 769.99;
+            global.desc = label4.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -91,6 +93,7 @@ namespace pay_your_premium
         private void button13_Click_1(object sender, EventArgs e)
         {
             global.price = 399.00;
+            global.desc = label6.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -99,6 +102,7 @@ namespace pay_your_premium
         private void button3_Click(object sender, EventArgs e)
         {
             global.price = 299.00;
+            global.desc = label8.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -107,6 +111,7 @@ namespace pay_your_premium
         private void button4_Click(object sender, EventArgs e)
         {
             global.price = 114.00;
+            global.desc = label10.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -115,6 +120,7 @@ namespace pay_your_premium
         private void button5_Click(object sender, EventArgs e)
         {
             global.price = 199.00;
+            global.desc = label12.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -123,6 +129,7 @@ namespace pay_your_premium
         private void button16_Click(object sender, EventArgs e)
         {
             global.price = 1089.99;
+            global.desc = label36.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -131,6 +138,7 @@ namespace pay_your_premium
         private void button18_Click(object sender, EventArgs e)
         {
             global.price = 1569.99;
+            global.desc = label32.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -139,6 +147,7 @@ namespace pay_your_premium
         private void button15_Click(object sender, EventArgs e)
         {
             global.price = 1399.00;
+            global.desc = label30.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -147,6 +156,7 @@ namespace pay_your_premium
         private void button20_Click(object sender, EventArgs e)
         {
             global.price = 589.99;
+            global.desc = label42.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -155,6 +165,7 @@ namespace pay_your_premium
         private void button6_Click(object sender, EventArgs e)
         {
             global.price = 769.99;
+            global.desc = label38.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -163,6 +174,7 @@ namespace pay_your_premium
         private void button21_Click(object sender, EventArgs e)
         {
             global.price = 399.00;
+            global.desc = label34.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -171,6 +183,7 @@ namespace pay_your_premium
         private void button14_Click(object sender, EventArgs e)
         {
             global.price = 299.00;
+            global.desc = label40.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -179,6 +192,7 @@ namespace pay_your_premium
         private void button19_Click(object sender, EventArgs e)
         {
             global.price = 114.00;
+            global.desc = label28.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -187,9 +201,15 @@ namespace pay_your_premium
         private void button26_Click(object sender, EventArgs e)
         {
             global.price = 769.99;
+            global.desc = label50.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
+        }
+
+        private void label38_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

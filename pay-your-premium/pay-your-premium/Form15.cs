@@ -97,6 +97,7 @@ namespace pay_your_premium
         private void button21_Click(object sender, EventArgs e)
         {
             global.price = 1804.00;
+            global.desc = label40.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -105,6 +106,7 @@ namespace pay_your_premium
         private void button19_Click(object sender, EventArgs e)
         {
             global.price = 1550.00;
+            global.desc = label36.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -113,6 +115,7 @@ namespace pay_your_premium
         private void button18_Click(object sender, EventArgs e)
         {
             global.price = 190.99;
+            global.desc = label34.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -121,6 +124,7 @@ namespace pay_your_premium
         private void button20_Click(object sender, EventArgs e)
         {
             global.price = 379.99;
+            global.desc = label38.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -129,6 +133,7 @@ namespace pay_your_premium
         private void button17_Click(object sender, EventArgs e)
         {
             global.price = 990.99;
+            global.desc = label14.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();
@@ -137,6 +142,142 @@ namespace pay_your_premium
         private void button12_Click(object sender, EventArgs e)
         {
             global.price = 1999.99;
+            global.desc = label12.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            global.price = 50.00;
+            global.desc = label8.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            global.price = 669.00;
+            global.desc = label16.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            global.price = 90.99;
+            global.desc = label6.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            global.price = 70.00;
+            global.desc = label44.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            global.price = 59.00;
+            global.desc = label46.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            global.price = 60.00;
+            global.desc = label32.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            global.price = 65.99;
+            global.desc = label42.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            global.price = 65.99;
+            global.desc = label30.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            global.price = 50.00;
+            global.desc = label4.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            global.price = 69.99;
+            global.desc = label10.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            global.price = 70.99;
+            global.desc = label18.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            global.price = 90.99;
+            global.desc = label2.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            global.price = 88.00;
+            global.desc = label22.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            global.price = 90.99;
+            global.desc = label20.Text;
+            Contract cont = new Contract();
+            this.Hide();
+            cont.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            global.price = 79.99;
+            global.desc = label24.Text;
             Contract cont = new Contract();
             this.Hide();
             cont.Show();

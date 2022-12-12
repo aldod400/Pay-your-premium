@@ -16,7 +16,7 @@ namespace pay_your_premium
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Clients());
+            Application.Run(new Login());
         }
     }
 }
