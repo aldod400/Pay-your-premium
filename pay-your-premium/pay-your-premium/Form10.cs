@@ -42,8 +42,18 @@ namespace pay_your_premium
             DataTable dt = new DataTable();
             cn.Open();
             da = new SqlDataAdapter("select*from contracts where [national_number]='" + textBox1.Text + "'", cn);
-            da.Fill(dt);
-            dataGridView1.DataSource = dt;
+            SqlCommand cm = new SqlCommand("select*from contracts where [national_number]='" + textBox1.Text + "'", cn);
+            SqlDataReader dr = cm.ExecuteReader();
+            if (dr.HasRows)
+            {
+                dr.Close();
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+            }
+            else
+            {
+                MessageBox.Show("Invalid National Number");
+            }
             cn.Close();
         }
         private void button3_Click(object sender, EventArgs e)
@@ -80,7 +90,6 @@ namespace pay_your_premium
         private void button1_Click(object sender, EventArgs e)
         {
             DataGridViewRow row = new DataGridViewRow();
-
             row = dataGridView1.Rows[selectedRowIndex];
             int iid = int.Parse(row.Cells[0].Value.ToString());
             string client_name = Interaction.InputBox("Enter The New Client Name", "Update Data", row.Cells[1].Value.ToString(), -1, -1);
@@ -114,6 +123,13 @@ namespace pay_your_premium
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Back_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            this.Hide();
         }
     }
 }

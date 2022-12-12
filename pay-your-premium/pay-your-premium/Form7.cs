@@ -118,15 +118,23 @@ namespace pay_your_premium
                     }
                     else
                     {
-                        SqlCommand sql = new SqlCommand("UPDATE users SET  user_password = '" + Pass.Text + "'  WHERE user_email ='" + email.Text + "'", cn);
-                        sql.ExecuteNonQuery();
-                        MessageBox.Show("Your Email Is Updated");
-                        email.Text = "Email";
-                        Pass.Text = "Password";
-                        confirm.Text = "Confirm Password";
-                        this.Close();
-                        Login l = new Login();
-                        l.Show();
+                        if(Pass.Text == confirm.Text)
+                        {
+                            SqlCommand sql = new SqlCommand("UPDATE users SET  user_password = '" + Pass.Text + "'  WHERE user_email ='" + email.Text + "'", cn);
+                            sql.ExecuteNonQuery();
+                            MessageBox.Show("Your Email Is Updated");
+                            email.Text = "Email";
+                            Pass.Text = "Password";
+                            confirm.Text = "Confirm Password";
+                            this.Close();
+                            Login l = new Login();
+                            l.Show();
+                        }
+                        else
+                        {
+                            MessageBox.Show("The Password Doesn't Match");
+                        }
+                        
                     }
                 }
                 else

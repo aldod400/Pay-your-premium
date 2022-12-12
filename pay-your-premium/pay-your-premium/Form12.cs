@@ -47,7 +47,7 @@ namespace pay_your_premium
                 double z = 0;
                 cn.Open();
                 clientname = client.Text;
-                if (double.TryParse(Nationnum.Text, out z) && Nationnum.Text.Length == 16)
+                if (double.TryParse(Nationnum.Text, out z) && Nationnum.Text.Length == 14)
                 {
                     clientid = long.Parse(Nationnum.Text);
                     dayofbirth = maskedTextBox1.Text;
