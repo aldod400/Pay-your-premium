@@ -118,7 +118,11 @@ namespace pay_your_premium
             //{
             //    System.IO.File.WriteAllText(saveFileDialog1.FileName, richTextBox1.Text);
             //}
-            printDialog1.ShowDialog();
+           if (printDialog1.ShowDialog() != DialogResult.Cancel)
+            {
+                richTextBox1.Text = "";
+            }
+            
             
 
         }
