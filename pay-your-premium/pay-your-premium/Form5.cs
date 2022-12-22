@@ -18,13 +18,16 @@ namespace pay_your_premium
             InitializeComponent();
 
         }
-        
+
         private void close_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult m = MessageBox.Show("Are You Sure About Closing The Program ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (m == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
-
-        private void tvbtn_Click(object sender, EventArgs e)
+            private void tvbtn_Click(object sender, EventArgs e)
         {
             panel2.Height = tvbtn.Height;
             panel2.Top = tvbtn.Top;

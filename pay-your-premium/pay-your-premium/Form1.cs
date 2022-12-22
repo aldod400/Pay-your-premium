@@ -30,7 +30,11 @@ namespace pay_your_premium
 
         private void close_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            DialogResult m = MessageBox.Show("Are You Sure About Closing The Program ?","Warning",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if(m == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void User_Click(object sender, EventArgs e)
@@ -77,7 +81,7 @@ namespace pay_your_premium
             cn.Open();
             if (User.Text == "Email" || Pass.Text == "Password")
             {
-                MessageBox.Show("Chek Empty Field");
+                MessageBox.Show("Chek Empty Field","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             else
             {
@@ -92,7 +96,7 @@ namespace pay_your_premium
                 }
                 else
                 {
-                    MessageBox.Show("Wrong Email Or Password");
+                    MessageBox.Show("Wrong Email Or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             cn.Close();

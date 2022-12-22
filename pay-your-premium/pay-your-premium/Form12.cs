@@ -40,7 +40,7 @@ namespace pay_your_premium
                 || dateTimePicker2.Text == "" || comnam.Text == "" || descri.Text == "" 
                 || price.Text == "" || period.Text == "" || dpsit.Text == "")
             {
-                MessageBox.Show("Check Empty Field");
+                MessageBox.Show("Check Empty Field","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             else
             {
@@ -64,17 +64,17 @@ namespace pay_your_premium
                         if(global.price >= deposit)
                         {
                             global.price -= deposit;
-
+                            double batch = (global.price + (global.price * (2.5 / 100))) / preperiod;
                             DialogResult d = MessageBox.Show("Are You Sure?", "Save Contract", MessageBoxButtons.YesNo);
 
                             if (d == DialogResult.Yes)
                             {
 
-                                SqlCommand cm = new SqlCommand("INSERT INTO contracts ([client_name],[national_number],[address],[date_birth],[device_description],[total_price],[deposit],[premium_period],[start_date],[end_date])VALUES ('" + clientname + "', '" + clientid + "', '" + address + "', '" + dayofbirth + "','" + devicedetial + "', '" + global.price + "', '" + deposit + "', '" + preperiod + "', '" + start + "', '" + end + "')", cn);
+                                SqlCommand cm = new SqlCommand("INSERT INTO contracts ([client_name],[national_number],[address],[date_birth],[device_description],[total_price],[deposit],[premium_period],[batch],[start_date],[end_date])VALUES ('" + clientname + "', '" + clientid + "', '" + address + "', '" + dayofbirth + "','" + devicedetial + "', '" + global.price + "', '" + deposit + "', '" + preperiod + "', '" + batch + "','" + start + "', '" + end + "')", cn);
 
                                 cm.ExecuteNonQuery();
 
-                                richTextBox1.Text = string.Format("                               Premium Contract                               \n\n\n\n This  contract  encloses  terms  and  conditions  with  which  a    contractor : " + compname + "  will  offer  services  to " + "\n\n - Client :  " + clientname + " ,   \n\n - Client Nation Number :" + clientid.ToString() + "\n\n - Adreess : " + address + "\n\n - Day Of Birth : " + dayofbirth + "\n\n\n The contractor shall: \n\n - begin work on " + start + "\n\n - Complete on  " + end + " \n\n\n The Product Details : \n " + devicedetial + " \n\n - The Total Price : " + totalpri + "\n\n - Depodit : " + deposit + "\n\n - Premiumm Period : " + preperiod);
+                                richTextBox1.Text = string.Format("                               Premium Contract                               \n\n\n\n This  contract  encloses  terms  and  conditions  with  which  a    contractor : " + compname + "  will  offer  services  to " + "\n\n - Client :  " + clientname + " ,   \n\n - Client Nation Number :" + clientid.ToString() + "\n\n - Adreess : " + address + "\n\n - Day Of Birth : " + dayofbirth + "\n\n\n The contractor shall: \n\n - begin work on " + start + "\n\n - Complete on  " + end + " \n\n\n The Product Details : \n " + devicedetial + " \n\n - The Total Price : " + totalpri + "\n\n - Depodit : " + deposit + "\n\n - Premiumm Period : " + preperiod + "\n\n - Batch : "+batch);
                                 client.Text = "";
                                 Nationnum.Text = "";
                                 maskedTextBox1.Text = "";
@@ -90,25 +90,29 @@ namespace pay_your_premium
                         }
                         else
                         {
-                            MessageBox.Show("Incorrect Deposit");
+                            MessageBox.Show("Incorrect Deposit","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
                         }
 
                     }
 
                     else
                     {
-                        MessageBox.Show("Please Enter The Number");
+                        MessageBox.Show("Please Enter The Number","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
-                    MessageBox.Show("Please Enter The Correct National ID");
+                    MessageBox.Show("Please Enter The Correct National ID", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             cn.Close();
         }
 
         private void close_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult m = MessageBox.Show("Are You Sure About Closing The Program ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (m == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

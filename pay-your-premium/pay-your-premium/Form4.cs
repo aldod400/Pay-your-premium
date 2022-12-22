@@ -49,7 +49,7 @@ namespace pay_your_premium
             {
                 Pass.Text = "Password";
             }
-            Pass.UseSystemPasswordChar = false;
+            Pass.UseSystemPasswordChar = true;
         }
 
         private void email_Enter(object sender, EventArgs e)
@@ -83,12 +83,16 @@ namespace pay_your_premium
             {
                 confirm.Text = "Confirm Password";
             }
-            confirm.UseSystemPasswordChar = false;
+            confirm.UseSystemPasswordChar = true;
         }
 
         private void close_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult m = MessageBox.Show("Are You Sure About Closing The Program ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (m == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -99,7 +103,7 @@ namespace pay_your_premium
 
             if (User.Text == "Username" || email.Text == "Email" || Pass.Text == "Password" || confirm.Text == "Confirm Password")
             {
-                MessageBox.Show("Check Empty Field");
+                MessageBox.Show("Check Empty Field","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             else
             {
@@ -113,21 +117,21 @@ namespace pay_your_premium
                     sdr.Read();
                     if (sdr.HasRows == true)
                     {
-                        MessageBox.Show("Repeated email");
+                        MessageBox.Show("Repeated email", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
                     }
                     else
                     {
                         if (Pass.Text != confirm.Text)
                         {
-                            MessageBox.Show("This password Dosn't Match");
+                            MessageBox.Show("This password Dosn't Match","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
                             sdr.Close();
                             SqlCommand sn = new SqlCommand("INSERT into users([user_name],[user_email],[user_password])values('" + User.Text + "','" + email.Text + "' , '" + Pass.Text + "');", cn);
                             sn.ExecuteNonQuery();
-                            MessageBox.Show("User Added Successfully" + User.Text);
+                            MessageBox.Show("User Added Successfully " + User.Text, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                             Login lg = new Login();
                             lg.Show();
@@ -138,10 +142,15 @@ namespace pay_your_premium
                 }
                 else
                 {
-                    MessageBox.Show("Please Inter The Correct Email");
+                    MessageBox.Show("Please Inter The Correct Email", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             cn.Close();
+        }
+
+        private void Pass_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -57,7 +57,11 @@ namespace pay_your_premium
         }
         private void pictureBox29_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult m = MessageBox.Show("Are You Sure About Closing The Program ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (m == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void Back_Click(object sender, EventArgs e)

@@ -102,7 +102,7 @@ namespace pay_your_premium
         {
             if(email.Text == "" || email.Text == "Email")
             {
-                MessageBox.Show("Please Inter Your Email");
+                MessageBox.Show("Please Inter Your Email","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             else
             {
@@ -114,7 +114,7 @@ namespace pay_your_premium
                     dr.Close();
                     if (Pass.Text == "Password" || Pass.Text == "" || confirm.Text == "Confirm Password" || confirm.Text == "")
                     {
-                        MessageBox.Show("Please Enter The New Password");
+                        MessageBox.Show("Please Enter The New Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     else
                     {
@@ -122,7 +122,7 @@ namespace pay_your_premium
                         {
                             SqlCommand sql = new SqlCommand("UPDATE users SET  user_password = '" + Pass.Text + "'  WHERE user_email ='" + email.Text + "'", cn);
                             sql.ExecuteNonQuery();
-                            MessageBox.Show("Your Email Is Updated");
+                            MessageBox.Show("Your Email Is Updated","Success",MessageBoxButtons.OK);
                             email.Text = "Email";
                             Pass.Text = "Password";
                             confirm.Text = "Confirm Password";
@@ -132,14 +132,14 @@ namespace pay_your_premium
                         }
                         else
                         {
-                            MessageBox.Show("The Password Doesn't Match");
+                            MessageBox.Show("The Password Doesn't Match", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Invalid Email");
+                    MessageBox.Show("Invalid Email","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             
@@ -148,7 +148,11 @@ namespace pay_your_premium
 
         private void close_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult m = MessageBox.Show("Are You Sure About Closing The Program ?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (m == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
     }
 }
